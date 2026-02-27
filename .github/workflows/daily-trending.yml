@@ -44,7 +44,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "::group::Pre-commit state"
+          git status
+          git log --oneline -2
+          git branch -a
+          echo "::endgroup::"
           git add src/data/
           git diff --staged --quiet || git commit -m "chore: update trending data [$(date +%Y-%m-%d)]"
+          echo "::group::Pre-push state"
+          git status
+          git log --oneline -3
+          echo "::endgroup::"
+          git fetch origin main
           git pull --rebase origin main
+          echo "::group::Post-rebase state"
+          git status
+          git log --oneline -3
+          echo "::endgroup::"
           git push origin main
