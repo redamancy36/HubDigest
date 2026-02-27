@@ -1,0 +1,47 @@
+name: Daily Trending
+
+on:
+  schedule:
+    # UTC 0:00 = 北京时间 8:00
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch trending
+        working-directory: scripts
+        run: python fetch_trending.py
+
+      - name: Summarize with LLM
+        working-directory: scripts
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+        run: python summarize_with_llm.py
+
+      - name: Generate archive index
+        working-directory: scripts
+        run: python generate_html.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/
+          git diff --staged --quiet || git commit -m "chore: update trending data [$(date +%Y-%m-%d)]"
+          git push

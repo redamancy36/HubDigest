@@ -1,0 +1,26 @@
+# HubDigest 配置文件
+
+# 每榜项目数量（可配置 10/20/30 等）
+project_count: 20
+
+# 语言列表（对应 GitHub Trending 的 language 参数）
+languages:
+  - all
+  - python
+  - javascript
+  - typescript
+  - java
+  - go
+  - rust
+
+# LLM 连接池优先级（DeepSeek 最高，其余随机）
+llm_priority:
+  - deepseek
+  - qwen
+  - kimi
+
+# README 截断长度（控制 token 成本）
+readme_max_chars: 1500
+
+# LLM 全部失败时的降级策略: skip | raw
+llm_fallback: raw
