@@ -10,9 +10,14 @@ languages:
   - javascript
   - typescript
   - java
+  - c++
+  - c
+  - c#
+  - php
   - go
   - rust
-
+  - ruby
+  
 # LLM 连接池优先级（DeepSeek 最高，其余随机）
 llm_priority:
   - deepseek
