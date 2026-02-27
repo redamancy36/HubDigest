@@ -155,6 +155,21 @@ main {
   line-height: 1.5;
 }
 
+.card-field-stars {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.card-field-stars .star-item {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+.card-field-stars .label {
+  min-width: auto;
+  color: var(--muted);
+}
+
 footer {
   text-align: center;
   margin-top: 2rem;

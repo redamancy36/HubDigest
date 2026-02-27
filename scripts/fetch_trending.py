@@ -1,7 +1,8 @@
-"""从 GitHub Trending API 抓取趋势项目"""
+"""从 GitHub Trending API 抓取趋势项目（支持并发）"""
 import json
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
@@ -105,8 +106,14 @@ def normalize_item(raw: dict, source: str = "") -> dict | None:
     }
 
 
+def _fetch_one(args):
+    """并发抓取单任务"""
+    lang, since = args
+    return (lang, since, fetch_trending(lang, since))
+
+
 def run():
-    """抓取日榜 + 周榜，多语言，写入 JSON"""
+    """抓取日榜 + 周榜，多语言，写入 JSON（全并发）"""
     cfg = load_config()
     data_dir = get_data_dir()
     archive_dir = data_dir / "archive"
@@ -116,12 +123,16 @@ def run():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     output = {"date": today, "daily": {}, "weekly": {}}
-
+    tasks = []
     for lang in cfg["languages"]:
-        output["daily"][lang] = fetch_trending(lang, "daily")
-        time.sleep(0.5)
-        output["weekly"][lang] = fetch_trending(lang, "weekly")
-        time.sleep(0.5)
+        tasks.append((lang, "daily"))
+        tasks.append((lang, "weekly"))
+
+    with ThreadPoolExecutor(max_workers=min(14, len(tasks))) as executor:
+        futures = [executor.submit(_fetch_one, t) for t in tasks]
+        for future in as_completed(futures):
+            lang, since, items = future.result()
+            output[since][lang] = items
 
     # 今日与周榜（主入口）
     (data_dir / "today.json").write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")

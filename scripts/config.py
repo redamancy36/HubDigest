@@ -20,7 +20,7 @@ def load_config():
         "llm_priority": cfg.get("llm_priority", ["deepseek"]),
         "readme_max_chars": int(cfg.get("readme_max_chars", 1500)),
         "llm_fallback": cfg.get("llm_fallback", "raw"),
-        "llm_concurrency": int(os.getenv("LLM_CONCURRENCY", cfg.get("llm_concurrency", 10))),
+        "llm_concurrency": int(os.getenv("LLM_CONCURRENCY", cfg.get("llm_concurrency", 50))),
         "use_thinking_model": cfg.get("use_thinking_model", False),
     }
 

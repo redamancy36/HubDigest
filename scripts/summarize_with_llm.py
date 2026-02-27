@@ -96,7 +96,7 @@ class LLMPool:
                     return resp.choices[0].message.content.strip()
                 except Exception as e:
                     last_err = e
-                    time.sleep(1)
+                    time.sleep(0.3)
                     continue
         return None
 
@@ -178,7 +178,7 @@ def run():
         return
 
     cfg = load_config()
-    concurrency = cfg.get("llm_concurrency", 10)
+    concurrency = max(1, cfg.get("llm_concurrency", 50))
     pool = LLMPool()
     data = json.loads(today_path.read_text(encoding="utf-8"))
 

@@ -17,13 +17,18 @@
       content.innerHTML = '<p class="loading">暂无数据</p>';
       return;
     }
-    content.innerHTML = items
+    const sorted = [...items].sort((a, b) => (b.currentPeriodStars || 0) - (a.currentPeriodStars || 0));
+    content.innerHTML = sorted
       .map(
         (item) => `
       <article class="card">
         <div class="card-field">
           <span class="label">项目名</span>
           <a class="value name" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.author + "/" + item.name)}</a>
+        </div>
+        <div class="card-field card-field-stars">
+          <span class="star-item"><span class="label">总 Star</span> <span class="value">${(item.stars || 0).toLocaleString()}</span></span>
+          <span class="star-item"><span class="label">新增 Star</span> <span class="value">+${(item.currentPeriodStars || 0).toLocaleString()}</span></span>
         </div>
         <div class="card-field">
           <span class="label">一句话</span>
