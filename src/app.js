@@ -21,11 +21,26 @@
       .map(
         (item) => `
       <article class="card">
-        <h3><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.author + "/" + item.name)}</a></h3>
-        <div class="meta">⭐ ${item.stars || 0} · 本周期 +${item.currentPeriodStars || 0}</div>
-        <div class="summary">${escapeHtml(item.summary_zh || item.description || "")}</div>
-        ${item.tech_stack ? `<div class="tech"><strong>技术栈：</strong>${escapeHtml(item.tech_stack)}</div>` : ""}
-        ${item.why_hot ? `<div class="why"><strong>为什么火：</strong>${escapeHtml(item.why_hot)}</div>` : ""}
+        <div class="card-field">
+          <span class="label">项目名</span>
+          <a class="value name" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.author + "/" + item.name)}</a>
+        </div>
+        <div class="card-field">
+          <span class="label">一句话</span>
+          <span class="value">${escapeHtml(item.summary_zh || item.description || "暂无")}</span>
+        </div>
+        <div class="card-field">
+          <span class="label">技术栈</span>
+          <span class="value">${escapeHtml(item.tech_stack || item.language || "—")}</span>
+        </div>
+        <div class="card-field">
+          <span class="label">为什么火</span>
+          <span class="value">${escapeHtml(item.why_hot || ("本周期新增 " + (item.currentPeriodStars || 0) + " 星 · 总 " + (item.stars || 0) + " 星"))}</span>
+        </div>
+        <div class="card-field">
+          <span class="label">链接</span>
+          <a class="value link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">前往 GitHub →</a>
+        </div>
       </article>
     `
       )

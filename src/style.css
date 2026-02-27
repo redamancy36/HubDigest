@@ -107,40 +107,47 @@ main {
   margin-bottom: 0.75rem;
 }
 
-.card h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1rem;
+.card-field {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
 }
 
-.card h3 a {
+.card-field:last-child {
+  margin-bottom: 0;
+}
+
+.card-field .label {
+  flex-shrink: 0;
+  min-width: 4.5em;
+  color: var(--muted);
+}
+
+.card-field .value {
+  flex: 1;
+  color: var(--text);
+}
+
+.card-field .value.name {
+  font-weight: 600;
   color: var(--accent);
   text-decoration: none;
 }
 
-.card h3 a:hover {
+.card-field .value.name:hover {
   text-decoration: underline;
   color: var(--accent-hover);
 }
 
-.card .meta {
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin-bottom: 0.5rem;
+.card-field .value.link {
+  color: var(--accent);
+  text-decoration: none;
 }
 
-.card .summary {
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
-}
-
-.card .tech, .card .why {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-top: 0.25rem;
-}
-
-.card .tech strong, .card .why strong {
-  color: var(--text);
+.card-field .value.link:hover {
+  text-decoration: underline;
+  color: var(--accent-hover);
 }
 
 footer {
