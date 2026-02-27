@@ -7,7 +7,7 @@ import yaml
 # 项目根目录
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config.yaml"
-
+    
 
 def load_config():
     """加载 config.yaml，环境变量可覆盖"""
