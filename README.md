@@ -27,6 +27,10 @@ python summarize_with_llm.py
 python generate_html.py
 ```
 
+## 运维指南
+
+新手修改配置、排查问题，请查看 **[doc/运维指南.md](doc/运维指南.md)**。
+
 ## 配置
 
 编辑 `config.yaml`：
@@ -34,6 +38,8 @@ python generate_html.py
 - `project_count`: 每榜项目数量（默认 20）
 - `languages`: 语言列表
 - `llm_priority`: LLM 连接池优先级（DeepSeek 优先）
+- `llm_concurrency`: 并发数（默认 50，加速摘要）
+- `use_thinking_model`: 是否使用思考模型推导应用场景（默认 true）
 - `llm_fallback`: 全部失败时 `raw`（展示原文）或 `skip`（跳过）
 
 ## GitHub Actions

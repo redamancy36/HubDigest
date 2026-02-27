@@ -19,6 +19,12 @@ llm_priority:
   - qwen
   - kimi
 
+# 并发数（同时处理的项目数，建议 10-50）
+llm_concurrency: 50
+
+# 使用思考模型（DeepSeek 使用 deepseek-reasoner 发散推导应用场景）
+use_thinking_model: true
+
 # README 截断长度（控制 token 成本）
 readme_max_chars: 1500
 

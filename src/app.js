@@ -37,6 +37,12 @@
           <span class="label">为什么火</span>
           <span class="value">${escapeHtml(item.why_hot || ("本周期新增 " + (item.currentPeriodStars || 0) + " 星 · 总 " + (item.stars || 0) + " 星"))}</span>
         </div>
+        ${item.application_scenarios ? `
+        <div class="card-field">
+          <span class="label">应用场景</span>
+          <span class="value scenarios">${escapeHtml(item.application_scenarios).replace(/\n/g, "<br>")}</span>
+        </div>
+        ` : ""}
         <div class="card-field">
           <span class="label">链接</span>
           <a class="value link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">前往 GitHub →</a>
