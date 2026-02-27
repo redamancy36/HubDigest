@@ -1,5 +1,6 @@
 """从 GitHub Trending API 抓取趋势项目"""
 import json
+import re
 import time
 from pathlib import Path
 
@@ -7,11 +8,13 @@ import requests
 
 from config import get_data_dir, load_config
 
-# 多个 API 源作为 Fallback（社区维护，可能变更）
-API_BASES = [
-    "https://github-trending-api.vercel.app",
-    "https://gh-trending-api.herokuapp.com",
-    "https://gtrend.yo.fun",  # /api/repositories
+# API 配置：(base_url, path, params_key_for_language)
+# lessx.xyz 实测可用，优先使用
+API_SOURCES = [
+    ("https://githubtrending.lessx.xyz", "/trending", "language"),  # 优先，返回格式不同
+    ("https://github-trending-api.vercel.app", "/repositories", "language"),
+    ("https://gh-trending-api.herokuapp.com", "/repositories", "language"),
+    ("https://gtrend.yo.fun", "/api/repositories", "language"),
 ]
 
 
@@ -21,32 +24,62 @@ def fetch_trending(language: str, since: str) -> list[dict]:
     limit = cfg["project_count"]
     results = []
 
-    params_base = {"since": since}
-    if language and language.lower() != "all":
-        params_base["language"] = language
-
-    for base in API_BASES:
+    for base, path, lang_key in API_SOURCES:
         try:
-            path = "/api/repositories" if "yo.fun" in base else "/repositories"
+            params = {"since": since}
+            if language and language.lower() != "all":
+                params[lang_key] = language
             url = f"{base}{path}"
-            resp = requests.get(url, params=params_base, timeout=15)
+            resp = requests.get(url, params=params, timeout=15)
             resp.raise_for_status()
             data = resp.json()
-            # 取前 N 个
-            items = data[:limit] if isinstance(data, list) else data.get("items", data)[:limit]
+            items = data[:limit] if isinstance(data, list) else data.get("items", [])[:limit]
             for item in items:
-                results.append(normalize_item(item))
+                normalized = normalize_item(item, source=base)
+                if normalized:
+                    results.append(normalized)
             if results:
                 return results
         except Exception:
             continue
-        time.sleep(1)
+        time.sleep(0.5)
 
     return results
 
 
-def normalize_item(raw: dict) -> dict:
-    """统一 API 返回格式"""
+def normalize_item(raw: dict, source: str = "") -> dict | None:
+    """统一 API 返回格式，兼容 lessx.xyz 及其他源"""
+    # lessx.xyz 格式: repository, name, description, language, stars, forks, increased
+    if "lessx.xyz" in source:
+        url = raw.get("repository", "")
+        if not url:
+            return None
+        full_name = raw.get("name", "")
+        parts = full_name.split("/", 1)
+        author = parts[0] if len(parts) > 1 else ""
+        repo_name = parts[1] if len(parts) > 1 else full_name
+        stars_str = str(raw.get("stars", "0")).replace(",", "")
+        stars = int(stars_str) if stars_str.isdigit() else 0
+        forks_str = str(raw.get("forks", "0")).replace(",", "")
+        forks = int(forks_str) if forks_str.isdigit() else 0
+        increased = raw.get("increased", "")
+        current_stars = 0
+        if increased and isinstance(increased, str):
+            m = re.search(r"(\d+)\s*stars?", increased, re.I)
+            if m:
+                current_stars = int(m.group(1))
+        return {
+            "author": author,
+            "name": repo_name,
+            "url": url,
+            "description": raw.get("description") or "",
+            "language": raw.get("language", ""),
+            "stars": stars,
+            "forks": forks,
+            "currentPeriodStars": current_stars,
+        }
+
+    # 通用格式
     owner = raw.get("owner", {})
     author = raw.get("author", raw.get("username", ""))
     if not author and isinstance(owner, dict):
@@ -57,13 +90,16 @@ def normalize_item(raw: dict) -> dict:
     url = raw.get("url", raw.get("href", f"https://github.com/{author}/{name}"))
     if not url.startswith("http"):
         url = f"https://github.com/{url}"
+    stars = raw.get("stars", raw.get("stargazers_count", 0))
+    if isinstance(stars, str):
+        stars = int(str(stars).replace(",", "")) if str(stars).replace(",", "").isdigit() else 0
     return {
         "author": str(author),
         "name": str(name),
         "url": url,
         "description": raw.get("description") or "",
         "language": raw.get("language", raw.get("languageColor", "")),
-        "stars": raw.get("stars", raw.get("stargazers_count", 0)),
+        "stars": stars,
         "forks": raw.get("forks", raw.get("forks_count", 0)),
         "currentPeriodStars": raw.get("currentPeriodStars", raw.get("stars", 0)),
     }
