@@ -8,9 +8,12 @@
         "url": "https://github.com/clockworklabs/SpacetimeDB",
         "description": "Development at the speed of light  ",
         "language": "Rust",
-        "stars": 20952,
+        "stars": 20963,
         "forks": 753,
-        "currentPeriodStars": 441
+        "currentPeriodStars": 441,
+        "summary_zh": "SpacetimeDB 是一个用于构建实时、多人在线应用的分布式数据库，它将数据库、应用服务器和消息代理集成在单一系统中，支持低延迟的全局数据同步。",
+        "tech_stack": "核心使用 Rust 语言开发，专注于高性能和安全性。",
+        "why_hot": "近期热度上升（本周新增 441 stars）主要因为其创新的‘数据库即服务’架构契合了实时协作应用、游戏和 Web3 项目的需求，提供了极简的开发体验和强大的实时同步能力，吸引了开发者关注。"
       },
       {
         "author": "obra",
@@ -18,9 +21,12 @@
         "url": "https://github.com/obra/superpowers",
         "description": "An agentic skills framework &amp; software development methodology that works.  ",
         "language": "Shell",
-        "stars": 63522,
-        "forks": 4854,
-        "currentPeriodStars": 1532
+        "stars": 63543,
+        "forks": 4855,
+        "currentPeriodStars": 1532,
+        "summary_zh": "这是一个智能体技能框架与软件开发方法论项目，旨在提供一套可工作的AI代理能力构建与软件开发流程。",
+        "tech_stack": "Shell",
+        "why_hot": "近期因AI代理（Agent）和AI驱动的软件开发范式热度持续上升，该项目提供了一个具体、可实践的方法论框架，吸引了大量关注智能体应用和AI编程工具的开发者。"
       },
       {
         "author": "muratcankoylan",
@@ -28,19 +34,25 @@
         "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
         "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.  ",
         "language": "Python",
-        "stars": 11823,
+        "stars": 11832,
         "forks": 915,
-        "currentPeriodStars": 922
+        "currentPeriodStars": 922,
+        "summary_zh": "这是一个为AI智能体系统提供上下文工程相关技能的工具库，专注于帮助开发者构建、优化和调试需要高效上下文管理的多智能体架构与生产系统。",
+        "tech_stack": "Python",
+        "why_hot": "近期因AI Agent和多智能体协作架构成为行业热点，该项目提供了可直接复用的工程化技能集合，能显著提升Agent的上下文理解与管理能力，契合当前构建复杂Agent系统的迫切需求。"
       },
       {
         "author": "bytedance",
         "name": "deer-flow",
         "url": "https://github.com/bytedance/deer-flow",
-        "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help o f sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.  ",
+        "description": "An open-source SuperAgent harness t hat researches, codes, a nd creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.  ",
         "language": "TypeScript",
-        "stars": 21213,
-        "forks": 2614,
-        "currentPeriodStars": 617
+        "stars": 21216,
+        "forks": 2615,
+        "currentPeriodStars": 617,
+        "summary_zh": "Deer-Flow 是一个开源的 AI 智能体框架，它通过沙箱、记忆、工具、技能和子代理等组件，能够自主完成从研究、编码到创作等不同复杂度、耗时可能从几分钟到数小时的任务。",
+        "tech_stack": "TypeScript",
+        "why_hot": "作为字节跳动开源的 SuperAgent 实现，它提供了一个功能强大且可扩展的 AI 智能体开发平台，顺应了当前 AI Agent 的开发热潮；其高星标数和近期快速增长表明社区对其架构和能力的强烈关注。"
       },
       {
         "author": "huggingface",
@@ -48,9 +60,12 @@
         "url": "https://github.com/huggingface/skills",
         "description": "",
         "language": "Python",
-        "stars": 7019,
+        "stars": 7026,
         "forks": 409,
-        "currentPeriodStars": 715
+        "currentPeriodStars": 715,
+        "summary_zh": "这是一个由HuggingFace开发的Python库，用于构建和评估AI智能体（Agent）的技能，特别是与大型语言模型（LLM）结合完成复杂任务的能力。",
+        "tech_stack": "Python",
+        "why_hot": "近期因AI智能体/Agent赛道的热度持续攀升，该项目作为HuggingFace官方出品，提供了一个标准化、可复现的框架来开发和测试AI技能，吸引了大量开发者和研究者关注。"
       },
       {
         "author": "farion1231",
@@ -58,9 +73,12 @@
         "url": "https://github.com/farion1231/cc-switch",
         "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode &amp; Gemini CLI.  ",
         "language": "Rust",
-        "stars": 20784,
+        "stars": 20793,
         "forks": 1289,
-        "currentPeriodStars": 418
+        "currentPeriodStars": 418,
+        "summary_zh": "这是一个跨平台桌面一体化助手工具，主要用于Claude Code、Codex、OpenCode和Gemini等AI编程工具的CLI交互。",
+        "tech_stack": "Rust",
+        "why_hot": "近期因AI编程工具（特别是Claude Code）的流行，该项目作为高效的桌面集成工具，方便开发者统一管理多个AI编程CLI，获得了大量关注。"
       },
       {
         "author": "D4Vinci",
@@ -68,9 +86,12 @@
         "url": "https://github.com/D4Vinci/Scrapling",
         "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!  ",
         "language": "Python",
-        "stars": 16964,
+        "stars": 16973,
         "forks": 1114,
-        "currentPeriodStars": 2902
+        "currentPeriodStars": 2902,
+        "summary_zh": "Scrapling是一个自适应的Python网络爬虫框架，能够处理从单个请求到大规模爬取的各种任务。",
+        "tech_stack": "Python",
+        "why_hot": "近期热度飙升（单周新增近3000星），可能因其作为功能全面、适应性强的爬虫框架，满足了市场对高效数据采集工具的广泛需求，同时项目活跃更新且文档完善。"
       },
       {
         "author": "ruvnet",
@@ -78,9 +99,12 @@
         "url": "https://github.com/ruvnet/claude-flow",
         "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration  ",
         "language": "TypeScript",
-        "stars": 15030,
-        "forks": 1751,
-        "currentPeriodStars": 215
+        "stars": 15035,
+        "forks": 1753,
+        "currentPeriodStars": 215,
+        "summary_zh": "Claude-Flow 是一个基于 Claude 模型的智能体编排平台，用于部署多智能体集群、协调自主工作流和构建对话式AI系统。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因企业级架构、分布式集群智能、RAG集成及原生 Claude Code/Codex 集成等特性受到关注，加上多智能体与工作流自动化赛道热度上升，本周新增 215 stars 显示其增长迅速。"
       },
       {
         "author": "ruvnet",
@@ -88,9 +112,12 @@
         "url": "https://github.com/ruvnet/ruvector",
         "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.  ",
         "language": "Rust",
-        "stars": 1641,
+        "stars": 1642,
         "forks": 179,
-        "currentPeriodStars": 436
+        "currentPeriodStars": 436,
+        "summary_zh": "RuVector 是一个用 Rust 构建的高性能、实时、自学习的向量图神经网络和数据库。",
+        "tech_stack": "Rust",
+        "why_hot": "近期热度高（本周新增 436 stars），可能因其结合了高性能图神经网络与向量数据库，顺应了 AI 基础设施和实时智能应用的趋势，且 Rust 语言在系统级性能敏感项目中日益受到关注。"
       },
       {
         "author": "moonshine-ai",
@@ -98,9 +125,12 @@
         "url": "https://github.com/moonshine-ai/moonshine",
         "description": "Fast and accurate automatic speech recognition (ASR) for edge devices  ",
         "language": "C",
-        "stars": 5352,
+        "stars": 5359,
         "forks": 254,
-        "currentPeriodStars": 245
+        "currentPeriodStars": 245,
+        "summary_zh": "这是一个专为边缘设备设计的快速且准确的自动语音识别（ASR）引擎。",
+        "tech_stack": "C语言",
+        "why_hot": "随着边缘计算和嵌入式AI应用需求增长，该项目凭借其高效、轻量的特性，满足了在资源受限设备上部署高质量语音识别的市场需求，近期关注度显著上升。"
       }
     ],
     "python": [
@@ -110,9 +140,12 @@
         "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
         "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.  ",
         "language": "Python",
-        "stars": 11823,
+        "stars": 11832,
         "forks": 915,
-        "currentPeriodStars": 922
+        "currentPeriodStars": 922,
+        "summary_zh": "这是一个为构建、优化和调试智能体系统提供上下文管理相关技能的工具库，专注于上下文工程、多智能体架构和生产级系统。",
+        "tech_stack": "Python",
+        "why_hot": "随着AI Agent应用开发热潮，该项目提供了工程化实现上下文管理的实用技能集合，解决了Agent系统开发中上下文处理的核心痛点，近期在相关社区被广泛推荐和采用。"
       },
       {
         "author": "huggingface",
@@ -120,9 +153,12 @@
         "url": "https://github.com/huggingface/skills",
         "description": "",
         "language": "Python",
-        "stars": 7019,
+        "stars": 7026,
         "forks": 409,
-        "currentPeriodStars": 715
+        "currentPeriodStars": 715,
+        "summary_zh": "这是一个由Hugging Face开发的Python项目，旨在通过一系列实践练习帮助开发者学习和掌握AI/ML相关的实用技能。",
+        "tech_stack": "Python",
+        "why_hot": "近期因AI/ML领域持续火热，该项目提供了结构化的实战学习路径，且由知名AI社区Hugging Face维护，内容权威且紧跟技术趋势，吸引了大量希望快速入门或提升技能的开发者。"
       },
       {
         "author": "D4Vinci",
@@ -130,9 +166,12 @@
         "url": "https://github.com/D4Vinci/Scrapling",
         "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!  ",
         "language": "Python",
-        "stars": 16964,
+        "stars": 16973,
         "forks": 1114,
-        "currentPeriodStars": 2902
+        "currentPeriodStars": 2902,
+        "summary_zh": "Scrapling 是一个自适应的网络爬虫框架，能够处理从单个请求到大规模爬取的各种任务。",
+        "tech_stack": "Python",
+        "why_hot": "近期热度高（单周新增近3000星），可能因其作为功能全面、适应性强的爬虫框架，满足了市场对高效数据采集工具的广泛需求，且项目维护活跃、文档完善。"
       },
       {
         "author": "GVCLab",
@@ -140,9 +179,12 @@
         "url": "https://github.com/GVCLab/PersonaLive",
         "description": "[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming  ",
         "language": "Python",
-        "stars": 2310,
+        "stars": 2311,
         "forks": 309,
-        "currentPeriodStars": 67
+        "currentPeriodStars": 67,
+        "summary_zh": "这是一个用于直播场景的、能生成富有表现力的肖像图像动画的AI项目，可将静态人像照片实时驱动为动态视频。",
+        "tech_stack": "Python（深度学习框架如PyTorch/TensorFlow，计算机视觉库）",
+        "why_hot": "作为CVPR 2026的前沿工作，它解决了直播中个性化、高表现力虚拟形象驱动的需求，技术新颖且实用性强，近期在GitHub上关注度显著上升。"
       },
       {
         "author": "deepseek-ai",
@@ -152,7 +194,10 @@
         "language": "Python",
         "stars": 101762,
         "forks": 16539,
-        "currentPeriodStars": 28
+        "currentPeriodStars": 28,
+        "summary_zh": "DeepSeek-V3 是深度求索公司开源的先进大型语言模型，支持长上下文理解并具备强大的代码生成与推理能力。",
+        "tech_stack": "Python, 深度学习框架（如PyTorch/JAX）, Transformer架构",
+        "why_hot": "作为性能顶尖的开源MoE模型，近期因发布新版、技术突破及在开源社区与多领域应用的广泛影响力而持续受到关注。"
       },
       {
         "author": "alibaba",
@@ -162,7 +207,10 @@
         "language": "Python",
         "stars": 1278,
         "forks": 102,
-        "currentPeriodStars": 76
+        "currentPeriodStars": 76,
+        "summary_zh": "OpenSandbox 是阿里开源的一个通用AI应用沙箱平台，为AI代理、代码执行、强化学习等场景提供安全隔离的运行环境。",
+        "tech_stack": "Python, 提供多语言SDK, 统一沙箱API, 支持Docker/Kubernetes运行时",
+        "why_hot": "近期因AI代理（如Coding/GUI Agents）和AI代码执行需求激增，其开源、多语言支持及生产级运行时特性吸引了开发者和企业关注。"
       },
       {
         "author": "yichuan-w",
@@ -170,9 +218,12 @@
         "url": "https://github.com/yichuan-w/LEANN",
         "description": "[MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.  ",
         "language": "Python",
-        "stars": 10109,
+        "stars": 10110,
         "forks": 873,
-        "currentPeriodStars": 23
+        "currentPeriodStars": 23,
+        "summary_zh": "LEANN 是一个能在个人设备上运行快速、准确且完全私密的检索增强生成（RAG）应用的项目，能节省97%的存储空间。",
+        "tech_stack": "Python",
+        "why_hot": "它解决了在本地高效部署RAG的难题，实现了显著的存储节省和隐私保护，符合当前边缘AI和轻量化大模型应用的潮流。"
       },
       {
         "author": "anthropics",
@@ -180,9 +231,12 @@
         "url": "https://github.com/anthropics/skills",
         "description": "Public repository for Agent Skills  ",
         "language": "Python",
-        "stars": 77509,
-        "forks": 8070,
-        "currentPeriodStars": 1208
+        "stars": 77528,
+        "forks": 8071,
+        "currentPeriodStars": 1208,
+        "summary_zh": "这是一个由Anthropic创建的公开技能库，用于开发和共享AI智能体（Agent）的技能模块。",
+        "tech_stack": "Python",
+        "why_hot": "随着AI智能体（尤其是类Claude/ChatGPT的AI助手）开发热潮的兴起，该项目作为官方维护的核心技能仓库，为开发者提供了构建功能更强大、更专业AI助手所需的基础能力模块，因此受到广泛关注和贡献。"
       },
       {
         "author": "lintsinghua",
@@ -190,9 +244,12 @@
         "url": "https://github.com/lintsinghua/DeepAudit",
         "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。  ",
         "language": "Python",
-        "stars": 4805,
+        "stars": 4806,
         "forks": 570,
-        "currentPeriodStars": 35
+        "currentPeriodStars": 35,
+        "summary_zh": "DeepAudit 是一个开源的代码漏洞挖掘多智能体系统，旨在通过AI智能体协作审计和自动化PoC验证，降低安全审计的门槛和成本。",
+        "tech_stack": "Python",
+        "why_hot": "作为国内首个开源的AI漏洞挖掘多智能体系统，它提供了小白友好的部署方式、支持私有化模型和自动化报告，降低了安全审计的技术和资金门槛，顺应了AI赋能安全的趋势。"
       },
       {
         "author": "TheAlgorithms",
@@ -202,17 +259,23 @@
         "language": "Python",
         "stars": 218180,
         "forks": 50099,
-        "currentPeriodStars": 107
+        "currentPeriodStars": 107,
+        "summary_zh": "这是一个用Python实现各种算法和数据结构的开源项目集合。",
+        "tech_stack": "Python",
+        "why_hot": "作为Python领域最著名的算法库之一，其持续更新、内容全面且适合学习和参考，本周期因算法学习需求稳定而保持高关注度。"
       },
       {
         "author": "qodo-ai",
         "name": "pr-agent",
         "url": "https://github.com/qodo-ai/pr-agent",
-        "description": "🚀 PR Age nt - The Original Open-Source PR Reviewer, This repo is not the Qodo free tier! Try the free version on our website.  ",
+        "description": "🚀 PR Agent - The Original Open-Source PR Reviewer, This repo is not the Qodo free tier! Try the free version on our website.  ",
         "language": "Python",
         "stars": 10309,
         "forks": 1309,
-        "currentPeriodStars": 20
+        "currentPeriodStars": 20,
+        "summary_zh": "这是一个开源的AI驱动代码审查助手，可自动分析Pull Request并提供改进建议。",
+        "tech_stack": "Python",
+        "why_hot": "作为首批开源PR AI审查工具之一，因其能显著提升代码审查效率而受到开发者社区的广泛关注和采用。"
       },
       {
         "author": "zhayujie",
@@ -220,9 +283,12 @@
         "url": "https://github.com/zhayujie/chatgpt-on-wechat",
         "description": "CowAgent是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、拥有长期记忆并不断成长。同时支持飞书、钉钉、企业微信应用、微信公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助手和企业数字员工。  ",
         "language": "Python",
-        "stars": 41542,
+        "stars": 41545,
         "forks": 9765,
-        "currentPeriodStars": 59
+        "currentPeriodStars": 59,
+        "summary_zh": "这是一个基于大模型的AI助理项目，支持接入多种主流即时通讯平台，并能通过扩展技能处理多模态信息，可快速构建个人或企业级智能助手。",
+        "tech_stack": "Python",
+        "why_hot": "项目功能强大且集成度高，支持多种主流大模型和通讯平台，符合当前企业数字化和AI助手普及的趋势，且持续更新维护。"
       },
       {
         "author": "infiniflow",
@@ -230,9 +296,12 @@
         "url": "https://github.com/infiniflow/ragflow",
         "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs  ",
         "language": "Python",
-        "stars": 73795,
+        "stars": 73796,
         "forks": 8203,
-        "currentPeriodStars": 87
+        "currentPeriodStars": 87,
+        "summary_zh": "RAGFlow 是一个融合了检索增强生成（RAG）与智能体（Agent）能力的开源引擎，旨在为大型语言模型提供更优的上下文层。",
+        "tech_stack": "Python",
+        "why_hot": "因其将前沿的RAG技术与Agent能力相结合，提供了强大的开源解决方案，满足了市场对高效、可控的LLM上下文增强工具的迫切需求，近期在开源社区获得高度关注。"
       },
       {
         "author": "9001",
@@ -242,7 +311,10 @@
         "language": "Python",
         "stars": 42739,
         "forks": 1752,
-        "currentPeriodStars": 42
+        "currentPeriodStars": 42,
+        "summary_zh": "这是一个便携式多功能文件服务器，集成了高速可恢复上传、去重、WebDAV、多种文件传输协议（SFTP/FTP/TFTP）、媒体索引和缩略图生成等功能于单个文件中。",
+        "tech_stack": "Python",
+        "why_hot": "近期因项目功能全面且高度集成（单文件部署、支持多种协议和媒体处理），在自建文件共享和家庭服务器场景中受到关注，本周新增42星，反映出用户对轻量级一体化解决方案的需求增长。"
       },
       {
         "author": "AUTOMATIC1111",
@@ -252,7 +324,10 @@
         "language": "Python",
         "stars": 161348,
         "forks": 30085,
-        "currentPeriodStars": 156
+        "currentPeriodStars": 156,
+        "summary_zh": "这是一个基于Web的图形用户界面，用于运行和操作Stable Diffusion文生图模型。",
+        "tech_stack": "Python",
+        "why_hot": "作为最受欢迎的Stable Diffusion开源Web UI之一，因其功能全面、插件生态丰富且易于使用，持续吸引大量AI绘画爱好者和开发者，本周期新增156星，热度维持高位。"
       },
       {
         "author": "NVIDIA",
@@ -262,7 +337,10 @@
         "language": "Python",
         "stars": 15440,
         "forks": 3635,
-        "currentPeriodStars": 150
+        "currentPeriodStars": 150,
+        "summary_zh": "Megatron-LM 是 NVIDIA 推出的用于大规模训练 Transformer 语言模型的研究框架。",
+        "tech_stack": "Python, PyTorch",
+        "why_hot": "随着大语言模型（LLM）研究和应用的持续火爆，该项目作为业界领先的高效分布式训练解决方案，因其支持千亿乃至万亿参数模型的训练而备受关注，本周期新增大量 stars 反映了这一趋势。"
       },
       {
         "author": "MoonshotAI",
@@ -270,9 +348,12 @@
         "url": "https://github.com/MoonshotAI/kimi-cli",
         "description": "Kimi Code CLI is your next CLI agent.  ",
         "language": "Python",
-        "stars": 6845,
-        "forks": 654,
-        "currentPeriodStars": 51
+        "stars": 6846,
+        "forks": 655,
+        "currentPeriodStars": 51,
+        "summary_zh": "Kimi Code CLI 是一个基于 Kimi AI 大模型的命令行智能代理工具，允许用户通过自然语言指令在终端中执行代码生成、文件操作、系统命令等任务。",
+        "tech_stack": "Python",
+        "why_hot": "近期因 Kimi AI 模型能力升级和知名度提升，其 CLI 工具凭借便捷的终端集成和高效的代码辅助功能，吸引了大量开发者的关注和使用。"
       }
     ],
     "javascript": [
@@ -282,9 +363,12 @@
         "url": "https://github.com/liyupi/ai-guide",
         "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / OpenClaw / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站  ",
         "language": "JavaScript",
-        "stars": 8076,
+        "stars": 8078,
         "forks": 859,
-        "currentPeriodStars": 417
+        "currentPeriodStars": 417,
+        "summary_zh": "这是一个由程序员鱼皮维护的综合性AI学习资源导航与教程项目，涵盖AI工具使用指南、开发教程、资源大全和变现指南，旨在帮助开发者快速掌握AI技术。",
+        "tech_stack": "JavaScript（主要用于文档网站构建）",
+        "why_hot": "项目紧跟AI技术浪潮，系统化整理了当前热门的AI编程工具（如Cursor、Claude Code）、大模型选择指南和Prompt技巧，且持续更新AI资讯与实战教程，满足了大量开发者快速入门AI应用的需求。"
       },
       {
         "author": "justlovemaki",
@@ -292,9 +376,12 @@
         "url": "https://github.com/justlovemaki/AIClient-2-API",
         "description": "Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!  ",
         "language": "JavaScript",
-        "stars": 4444,
+        "stars": 4445,
         "forks": 688,
-        "currentPeriodStars": 68
+        "currentPeriodStars": 68,
+        "summary_zh": "这是一个模拟多种AI服务（如Gemini CLI、Antigravity、Qwen Code和Kiro）客户端请求的API项目，兼容OpenAI API，旨在简化AI开发集成。",
+        "tech_stack": "JavaScript",
+        "why_hot": "提供每日数千次Gemini模型免费请求及内置Claude模型的免费使用，降低了开发者接入多AI服务的门槛和成本，近期因AI应用热潮和免费资源吸引关注。"
       },
       {
         "author": "gsd-build",
@@ -302,9 +389,12 @@
         "url": "https://github.com/gsd-build/get-shit-done",
         "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.  ",
         "language": "JavaScript",
-        "stars": 21076,
+        "stars": 21078,
         "forks": 1840,
-        "currentPeriodStars": 705
+        "currentPeriodStars": 705,
+        "summary_zh": "这是一个用于Claude Code和OpenCode的轻量级元提示、上下文工程和规范驱动开发系统，旨在提升AI编程效率。",
+        "tech_stack": "JavaScript",
+        "why_hot": "近期因AI编程助手（如Claude Code）的普及，该项目作为高效的提示工程与开发规范框架，能显著提升与AI协作编程的产出质量与速度，因此受到广泛关注。"
       },
       {
         "author": "Wei-Shaw",
@@ -314,7 +404,10 @@
         "language": "JavaScript",
         "stars": 8437,
         "forks": 1362,
-        "currentPeriodStars": 56
+        "currentPeriodStars": 56,
+        "summary_zh": "这是一个开源的中转服务项目，用于自建Claude API镜像，并统一接入多个AI模型服务（如Claude、OpenAI、Gemini等），支持多人拼车共享以降低成本。",
+        "tech_stack": "JavaScript",
+        "why_hot": "近期因Claude等AI模型API使用成本较高，该项目提供低成本共享方案和一站式多模型接入，满足了开发者及团队高效分摊成本、统一管理AI服务需求，因此受到关注。"
       },
       {
         "author": "jgraph",
@@ -324,17 +417,23 @@
         "language": "JavaScript",
         "stars": 3755,
         "forks": 668,
-        "currentPeriodStars": 30
+        "currentPeriodStars": 30,
+        "summary_zh": "draw.io 是一个基于 JavaScript 的客户端通用图表绘制编辑器。",
+        "tech_stack": "JavaScript",
+        "why_hot": "作为一款功能强大且免费开源的在线绘图工具，它持续受到开发者、技术文档编写者和团队协作的青睐，本周期新增30个star，表明其作为本地部署、注重隐私的图表解决方案保持着稳定的热度。"
       },
       {
         "author": "atlassian",
         "name": "atlassian-mcp-server",
         "url": "https://github.com/atlassian/atlassian-mcp-server",
-        "description": "Remote MCP Server that securely connects Jira and Confluence with your LLM, IDE, or agent platform of choice.  ",
+        "description": "Remote MCP Server that securely connects Jira and Confl uence with your LLM, IDE, or agent platform of choice.  ",
         "language": "JavaScript",
         "stars": 355,
         "forks": 40,
-        "currentPeriodStars": 5
+        "currentPeriodStars": 5,
+        "summary_zh": "这是一个由Atlassian官方开发的远程MCP服务器，用于安全地将Jira和Confluence与用户的LLM、IDE或智能体平台连接起来。",
+        "tech_stack": "JavaScript",
+        "why_hot": "该项目作为官方工具，顺应了AI编程助手（如Claude、Cursor）通过MCP协议集成企业工具（如Jira、Confluence）以提升开发和工作效率的趋势，满足了市场对安全、官方支持的连接器的迫切需求。"
       },
       {
         "author": "hmjz100",
@@ -343,8 +442,11 @@
         "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘  ",
         "language": "JavaScript",
         "stars": 12620,
-        "forks": 709,
-        "currentPeriodStars": 55
+        "forks": 710,
+        "currentPeriodStars": 55,
+        "summary_zh": "这是一个基于JavaScript的网盘直链提取工具，支持从百度、阿里云盘等八大国内主流网盘获取可直接下载的文件链接。",
+        "tech_stack": "JavaScript",
+        "why_hot": "解决了用户从网盘下载文件时需使用官方客户端或限速的痛点，提供便捷的直链下载方式，且支持平台广泛，需求持续旺盛。"
       },
       {
         "author": "qeeqbox",
@@ -354,7 +456,10 @@
         "language": "JavaScript",
         "stars": 21607,
         "forks": 2018,
-        "currentPeriodStars": 52
+        "currentPeriodStars": 52,
+        "summary_zh": "这是一个用于分析和查找个人在1000多个社交媒体网站上资料的工具，提供API、CLI和Web应用界面。",
+        "tech_stack": "JavaScript",
+        "why_hot": "因其强大的社交媒体资料聚合与OSINT（开源情报）分析能力，在数字取证、安全研究和隐私检查领域持续受到关注，本周期Star增长稳定。"
       },
       {
         "author": "github",
@@ -364,7 +469,10 @@
         "language": "JavaScript",
         "stars": 22742,
         "forks": 2617,
-        "currentPeriodStars": 150
+        "currentPeriodStars": 150,
+        "summary_zh": "这是一个收集社区贡献的GitHub Copilot使用指南、提示词和配置的项目，旨在帮助开发者更高效地利用Copilot进行编程。",
+        "tech_stack": "JavaScript",
+        "why_hot": "随着AI编程助手GitHub Copilot的普及，开发者积极分享和探索其最佳实践，该项目作为官方社区资源库，汇集了大量实用技巧，因此持续受到关注并保持热度。"
       },
       {
         "author": "ToolJet",
@@ -374,7 +482,10 @@
         "language": "JavaScript",
         "stars": 37490,
         "forks": 4953,
-        "currentPeriodStars": 18
+        "currentPeriodStars": 18,
+        "summary_zh": "ToolJet 是一个开源的、AI原生的低代码平台，用于快速构建企业内部工具、仪表盘、业务应用、工作流和AI智能体。",
+        "tech_stack": "JavaScript",
+        "why_hot": "作为其商业产品 ToolJet AI 的开源基础，该项目顺应了当前企业利用低代码和AI原生平台提升开发效率、快速构建智能应用的强烈需求，因此持续受到关注。"
       },
       {
         "author": "vercel-labs",
@@ -384,7 +495,10 @@
         "language": "JavaScript",
         "stars": 21347,
         "forks": 1952,
-        "currentPeriodStars": 113
+        "currentPeriodStars": 113,
+        "summary_zh": "这是Vercel官方提供的一套AI智能体（Agent）可调用的工具函数集合，用于扩展AI的能力以执行具体任务。",
+        "tech_stack": "JavaScript/TypeScript",
+        "why_hot": "随着AI Agent开发热潮的兴起，该项目作为Vercel官方出品的高质量技能库，为开发者构建实用AI应用提供了即插即用的核心工具，因此受到广泛关注。"
       },
       {
         "author": "WebGoat",
@@ -394,7 +508,10 @@
         "language": "JavaScript",
         "stars": 8950,
         "forks": 7426,
-        "currentPeriodStars": 5
+        "currentPeriodStars": 5,
+        "summary_zh": "WebGoat是一个专门设计用于网络安全教学和演练的、故意存在安全漏洞的Web应用程序。",
+        "tech_stack": "JavaScript",
+        "why_hot": "随着网络安全威胁日益严峻，开发者和安全人员对实战化学习资源的需求持续增长，该项目作为经典的漏洞靶场，其更新和维护始终吸引着社区关注。"
       },
       {
         "author": "blackmatrix7",
@@ -404,7 +521,10 @@
         "language": "JavaScript",
         "stars": 24880,
         "forks": 3893,
-        "currentPeriodStars": 20
+        "currentPeriodStars": 20,
+        "summary_zh": "这是一个提供iOS设备分流规则、重写规则及脚本的开源项目，主要用于广告屏蔽、隐私保护和网络流量优化。",
+        "tech_stack": "JavaScript",
+        "why_hot": "由于iOS用户对广告拦截和隐私保护的需求持续增长，且该项目规则库更新频繁、覆盖面广，因此保持较高的关注度。"
       },
       {
         "author": "TryGhost",
@@ -414,7 +534,10 @@
         "language": "JavaScript",
         "stars": 51918,
         "forks": 11340,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "Ghost是一个用于现代出版、会员管理、订阅和新闻通讯的独立开源平台。",
+        "tech_stack": "JavaScript/Node.js",
+        "why_hot": "作为WordPress等传统CMS的轻量、高性能替代品，其专注于内容创作者和付费订阅模式，契合了当前知识付费和独立出版的趋势，社区活跃且持续更新。"
       },
       {
         "author": "AikidoSec",
@@ -424,7 +547,10 @@
         "language": "JavaScript",
         "stars": 752,
         "forks": 37,
-        "currentPeriodStars": 10
+        "currentPeriodStars": 10,
+        "summary_zh": "这是一个用于保护开发者免受通过npm、yarn等包管理器安装的恶意代码侵害的安全工具。",
+        "tech_stack": "JavaScript",
+        "why_hot": "随着供应链攻击（如恶意npm包）事件频发，开发者对安全工具的需求增加，该项目提供了免费且无需令牌的轻量级解决方案。"
       },
       {
         "author": "nasa-gibs",
@@ -434,7 +560,10 @@
         "language": "JavaScript",
         "stars": 824,
         "forks": 218,
-        "currentPeriodStars": 18
+        "currentPeriodStars": 18,
+        "summary_zh": "这是一个由NASA开发的交互式卫星图像浏览平台，允许用户探索全球高分辨率卫星影像。",
+        "tech_stack": "JavaScript",
+        "why_hot": "近期可能因公众对全球环境变化、极端天气事件或航天科技的兴趣增加而受到关注，其开源属性和NASA背景也持续吸引技术爱好者。"
       }
     ],
     "typescript": [
@@ -444,9 +573,12 @@
         "url": "https://github.com/bytedance/deer-flow",
         "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.  ",
         "language": "TypeScript",
-        "stars": 21213,
-        "forks": 2614,
-        "currentPeriodStars": 617
+        "stars": 21216,
+        "forks": 2615,
+        "currentPeriodStars": 617,
+        "summary_zh": "Deer-Flow 是一个开源的 SuperAgent 框架，它通过沙箱、记忆、工具、技能和子代理等机制，能够自主完成从研究、编码到创作等不同复杂度、耗时从几分钟到数小时的任务。",
+        "tech_stack": "TypeScript",
+        "why_hot": "作为字节跳动开源的高阶AI智能体框架，它展示了强大的自主任务处理能力，符合当前AI Agent领域的热潮；其开源属性、清晰的架构和来自大厂的背景吸引了大量开发者的关注和试用，导致近期star数快速增长。"
       },
       {
         "author": "farion1231",
@@ -454,9 +586,12 @@
         "url": "https://github.com/farion1231/cc-switch",
         "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode &amp; Gemini CLI.  ",
         "language": "Rust",
-        "stars": 20784,
+        "stars": 20793,
         "forks": 1289,
-        "currentPeriodStars": 418
+        "currentPeriodStars": 418,
+        "summary_zh": "这是一个跨平台的桌面端一体化助手工具，用于在 Claude Code、Codex、OpenCode 和 Gemini 等 AI 编程助手的命令行界面之间快速切换和管理。",
+        "tech_stack": "Rust",
+        "why_hot": "近期因 AI 编程助手（尤其是 Claude Code）的流行，以及开发者对高效、统一的多工具切换和管理需求激增，该项目凭借其跨平台、轻量级和开源特性迅速获得关注。"
       },
       {
         "author": "ruvnet",
@@ -464,9 +599,12 @@
         "url": "https://github.com/ruvnet/claude-flow",
         "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration  ",
         "language": "TypeScript",
-        "stars": 15030,
-        "forks": 1751,
-        "currentPeriodStars": 215
+        "stars": 15035,
+        "forks": 1753,
+        "currentPeriodStars": 215,
+        "summary_zh": "Claude-Flow 是一个基于 Claude 模型的智能体编排平台，用于部署多智能体集群、协调自主工作流和构建对话式AI系统。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因企业级架构、分布式集群智能、RAG集成及原生 Claude Code/Codex 集成等特性受到关注，本周期新增 215 stars 显示其作为 AI 智能体编排平台的热度持续上升。"
       },
       {
         "author": "badlogic",
@@ -474,9 +612,12 @@
         "url": "https://github.com/badlogic/pi-mono",
         "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods  ",
         "language": "TypeScript",
-        "stars": 17229,
+        "stars": 17239,
         "forks": 1796,
-        "currentPeriodStars": 589
+        "currentPeriodStars": 589,
+        "summary_zh": "这是一个用于构建和部署AI智能体（Agent）的全栈工具包，提供了从命令行工具、统一LLM接口到多种用户界面和Slack机器人的完整解决方案。",
+        "tech_stack": "TypeScript",
+        "why_hot": "项目集成了当前热门的AI Agent开发、统一LLM API管理以及vLLM部署等核心功能，提供了开箱即用的生产级工具，满足了市场对高效构建AI应用基础设施的强烈需求，因此近期关注度快速上升。"
       },
       {
         "author": "virattt",
@@ -484,9 +625,12 @@
         "url": "https://github.com/virattt/dexter",
         "description": "An autonomous agent for deep financial research  ",
         "language": "TypeScript",
-        "stars": 16594,
+        "stars": 16595,
         "forks": 2018,
-        "currentPeriodStars": 122
+        "currentPeriodStars": 122,
+        "summary_zh": "一个用于深度金融研究的自主智能体，能够自动化执行市场分析、数据收集和投资决策研究。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因AI+金融科技赛道受关注，项目展示了AI在专业领域（金融分析）的自动化潜力，且代码开源、架构清晰，吸引了开发者和金融科技爱好者。"
       },
       {
         "author": "openclaw",
@@ -494,9 +638,12 @@
         "url": "https://github.com/openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  ",
         "language": "TypeScript",
-        "stars": 233509,
-        "forks": 44892,
-        "currentPeriodStars": 4114
+        "stars": 233562,
+        "forks": 44905,
+        "currentPeriodStars": 4114,
+        "summary_zh": "这是一个跨操作系统和平台的个人AI助手项目。",
+        "tech_stack": "TypeScript",
+        "why_hot": "项目因其‘龙虾’主题的趣味性、跨平台特性以及近期AI助手类应用的热度而受到关注，本周获得了大量新增Star。"
       },
       {
         "author": "code-yeongyu",
@@ -504,9 +651,12 @@
         "url": "https://github.com/code-yeongyu/oh-my-opencode",
         "description": "the best agent harness  ",
         "language": "TypeScript",
-        "stars": 34826,
+        "stars": 34831,
         "forks": 2621,
-        "currentPeriodStars": 409
+        "currentPeriodStars": 409,
+        "summary_zh": "这是一个用于构建和编排AI智能体（Agent）的高级开发框架。",
+        "tech_stack": "TypeScript",
+        "why_hot": "项目定位为“最好的智能体工具”，精准切入了当前AI Agent开发的热潮，其简洁高效的特性吸引了大量开发者关注和尝试。"
       },
       {
         "author": "musistudio",
@@ -514,9 +664,12 @@
         "url": "https://github.com/musistudio/claude-code-router",
         "description": "Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.  ",
         "language": "TypeScript",
-        "stars": 28475,
+        "stars": 28477,
         "forks": 2199,
-        "currentPeriodStars": 88
+        "currentPeriodStars": 88,
+        "summary_zh": "这是一个基于Claude Code构建的编码基础设施项目，允许开发者自定义与模型的交互方式，同时能持续获取Anthropic的官方更新。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因Claude 3.5 Sonnet等强大模型发布，开发者对高效、可定制的AI编程工具需求激增，该项目提供了灵活接入最新AI能力的基础设施。"
       },
       {
         "author": "abhigyanpatwari",
@@ -524,19 +677,25 @@
         "url": "https://github.com/abhigyanpatwari/GitNexus",
         "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration  ",
         "language": "TypeScript",
-        "stars": 5398,
-        "forks": 472,
-        "currentPeriodStars": 1350
+        "stars": 5419,
+        "forks": 474,
+        "currentPeriodStars": 1350,
+        "summary_zh": "GitNexus 是一个完全在浏览器中运行的客户端知识图谱生成器，用户只需提供 GitHub 仓库或 ZIP 文件，即可生成交互式代码知识图谱，并内置图检索增强生成（Graph RAG）智能体，用于代码探索与分析。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因‘零服务器’、完全客户端运行的理念及内置 Graph RAG 智能体的创新设计而受到关注，契合了当前对本地化、隐私友好的 AI 代码分析工具的需求趋势，同时其直观的代码可视化与交互能力吸引了大量开发者尝试。"
       },
       {
         "author": "ourongxing",
         "name": "newsnow",
         "url": "https://github.com/ourongxing/newsnow",
         "description": "Elegant reading of real-time and hottest news  ",
-        "language": "ipt",
+        "language": "TypeScript",
         "stars": 18222,
         "forks": 5225,
-        "currentPeriodStars": 32
+        "currentPeriodStars": 32,
+        "summary_zh": "这是一个优雅的实时热点新闻阅读网站，聚合并展示最新和最热门的新闻内容。",
+        "tech_stack": "TypeScript, Next.js, Tailwind CSS",
+        "why_hot": "项目界面设计优雅简洁，解决了用户高效获取和阅读实时新闻的需求，且作为个人全栈项目技术栈现代、完成度高，吸引了大量开发者关注和学习。"
       },
       {
         "author": "labring",
@@ -546,7 +705,10 @@
         "language": "TypeScript",
         "stars": 27192,
         "forks": 6938,
-        "currentPeriodStars": 16
+        "currentPeriodStars": 16,
+        "summary_zh": "FastGPT 是一个基于大语言模型的知识库问答平台，提供数据处理、RAG检索和可视化AI工作流编排等开箱即用功能，让用户无需复杂配置即可快速开发和部署复杂问答系统。",
+        "tech_stack": "TypeScript",
+        "why_hot": "因其提供了低门槛、一体化的RAG应用解决方案，降低了企业构建私有知识库和智能问答系统的技术难度与开发成本，顺应了当前企业级AI应用落地的迫切需求。"
       },
       {
         "author": "siteboon",
@@ -554,9 +716,12 @@
         "url": "https://github.com/siteboon/claudecodeui",
         "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely  ",
         "language": "TypeScript",
-        "stars": 7224,
+        "stars": 7225,
         "forks": 917,
-        "currentPeriodStars": 314
+        "currentPeriodStars": 314,
+        "summary_zh": "这是一个为移动端和网页端提供Claude Code、Cursor CLI或Codex远程访问能力的开源WebUI/GUI工具，帮助用户管理云端Claude Code会话和项目。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因Claude Code等AI编程助手的普及，该项目提供了便捷的远程管理和跨平台使用方案，满足了移动办公和灵活访问的需求，因此关注度快速上升。"
       },
       {
         "author": "DayuanJiang",
@@ -565,8 +730,11 @@
         "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.  ",
         "language": "TypeScript",
         "stars": 21974,
-        "forks": 2339,
-        "currentPeriodStars": 130
+        "forks": 2341,
+        "currentPeriodStars": 130,
+        "summary_zh": "这是一个基于 Next.js 的 Web 应用，它集成了 AI 能力与 draw.io 图表工具，允许用户通过自然语言命令创建、修改和增强图表。",
+        "tech_stack": "TypeScript, Next.js",
+        "why_hot": "项目将 AI 与流行的图表绘制工具结合，提供了直观的 AI 辅助可视化功能，解决了用户手动绘制复杂图表的痛点，且近期在 GitHub 上获得了大量关注（本周新增 130 个 star），反映了市场对 AI 赋能生产力工具的强烈需求。"
       },
       {
         "author": "tiann",
@@ -574,9 +742,12 @@
         "url": "https://github.com/tiann/hapi",
         "description": "App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere  ",
         "language": "TypeScript",
-        "stars": 1864,
+        "stars": 1866,
         "forks": 184,
-        "currentPeriodStars": 96
+        "currentPeriodStars": 96,
+        "summary_zh": "这是一个支持多AI模型（Claude Code/Codex/Gemini/OpenCode）的移动端编程应用，让开发者可以随时随地通过对话式编程进行开发。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期AI编程助手（如Claude、Gemini）热度持续上升，该项目整合了多个主流模型，提供了便捷的移动端编程体验，满足了开发者随时随地进行‘氛围编码’的需求，因此关注度快速增加。"
       }
     ],
     "java": [
@@ -588,7 +759,10 @@
         "language": "Java",
         "stars": 8482,
         "forks": 1862,
-        "currentPeriodStars": 18
+        "currentPeriodStars": 18,
+        "summary_zh": "这是一个为Java开发者设计的、基于Spring框架的智能体（Agentic）AI应用开发框架。",
+        "tech_stack": "Java, Spring Framework",
+        "why_hot": "随着AI Agent概念的兴起，该项目由阿里巴巴开源，为庞大的Java/Spring开发者社区提供了便捷的AI应用集成与开发方案，降低了AI应用开发门槛，因此受到广泛关注。"
       },
       {
         "author": "agentscope-ai",
@@ -598,7 +772,10 @@
         "language": "Java",
         "stars": 1421,
         "forks": 310,
-        "currentPeriodStars": 21
+        "currentPeriodStars": 21,
+        "summary_zh": "AgentScope Java 是一个用于构建大语言模型（LLM）应用的面向智能体编程框架，提供Java版本的开发工具和运行时环境。",
+        "tech_stack": "Java",
+        "why_hot": "随着企业级LLM应用需求增长，Java作为主流企业开发语言，其生态中的高性能、易集成的智能体框架受到关注；项目近期更新活跃，满足了Java开发者构建AI应用的需求，且与Python版本形成互补，扩展了框架的适用场景。"
       },
       {
         "author": "debezium",
@@ -608,7 +785,10 @@
         "language": "Java",
         "stars": 12443,
         "forks": 2857,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "Debezium 是一个用于捕获多种数据库变更数据的开源平台。",
+        "tech_stack": "Java",
+        "why_hot": "随着微服务和事件驱动架构的普及，实时、可靠地捕获和处理数据库变更数据（CDC）成为构建数据管道和保持系统间数据一致性的关键技术需求，因此相关工具持续受到关注。"
       },
       {
         "author": "netty",
@@ -618,7 +798,10 @@
         "language": "Java",
         "stars": 34824,
         "forks": 16290,
-        "currentPeriodStars": 6
+        "currentPeriodStars": 6,
+        "summary_zh": "Netty是一个高性能、异步事件驱动的网络应用框架，用于快速开发可维护的高性能协议服务器和客户端。",
+        "tech_stack": "Java",
+        "why_hot": "作为构建高性能分布式系统（如微服务、游戏服务器、RPC框架）的核心网络通信基础库，其稳定性和性能备受认可，近期热度可能源于其在云原生和实时通信领域的持续广泛应用。"
       },
       {
         "author": "Snailclimb",
@@ -628,7 +811,10 @@
         "language": "Java",
         "stars": 153892,
         "forks": 46121,
-        "currentPeriodStars": 21
+        "currentPeriodStars": 21,
+        "summary_zh": "这是一个面向Java后端开发者的综合性面试指南，涵盖从计算机基础到高并发系统设计的核心知识点。",
+        "tech_stack": "Java, Markdown",
+        "why_hot": "作为长期热门的中文Java学习与面试资源，其持续更新和全面的内容使其成为广大开发者准备技术面试的首选参考，因此始终保持高关注度。"
       },
       {
         "author": "StarRocks",
@@ -638,7 +824,10 @@
         "language": "Java",
         "stars": 11417,
         "forks": 2331,
-        "currentPeriodStars": 8
+        "currentPeriodStars": 8,
+        "summary_zh": "StarRocks 是一个用于亚秒级分析的极速开源查询引擎，支持数据湖仓等多种场景。",
+        "tech_stack": "Java",
+        "why_hot": "作为 Linux Foundation 项目，凭借其卓越的多维分析、实时分析和即席查询性能，在湖仓一体架构中受到广泛关注。"
       },
       {
         "author": "questdb",
@@ -648,7 +837,10 @@
         "language": "Java",
         "stars": 16719,
         "forks": 1544,
-        "currentPeriodStars": 1
+        "currentPeriodStars": 1,
+        "summary_zh": "QuestDB是一个开源的高性能时序数据库，专为处理时间序列数据而设计。",
+        "tech_stack": "Java",
+        "why_hot": "因其在时序数据场景下卓越的写入和查询性能，以及对SQL和InfluxDB Line Protocol的原生支持，满足了物联网、金融科技等领域对实时数据分析的快速增长需求，从而受到广泛关注。"
       },
       {
         "author": "alibaba",
@@ -658,7 +850,10 @@
         "language": "Java",
         "stars": 32661,
         "forks": 13261,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "Nacos是一个用于构建云原生AI应用的动态服务发现、配置和服务管理平台。",
+        "tech_stack": "Java",
+        "why_hot": "作为云原生和微服务架构的核心组件，随着容器化和微服务技术的普及，其服务治理和配置管理能力需求持续旺盛，近期在AI应用云原生化的趋势下关注度进一步提升。"
       },
       {
         "author": "langchain4j",
@@ -666,9 +861,12 @@
         "url": "https://github.com/langchain4j/langchain4j",
         "description": "LangChain4j is an open-source Java library that simplifies the integration of LLMs into Java applications through a unified API, providing access to popular LLMs and vector databases. It makes implementing RAG, tool calling (including support for MCP), and agents easy. LangChain4j integrates seamlessly with various enterprise Java frameworks.  ",
         "language": "Java",
-        "stars": 10848,
+        "stars": 10849,
         "forks": 1979,
-        "currentPeriodStars": 12
+        "currentPeriodStars": 12,
+        "summary_zh": "LangChain4j 是一个开源的 Java 库，它通过统一的 API 简化了在 Java 应用中集成大型语言模型的过程，并支持 RAG、工具调用和智能体开发。",
+        "tech_stack": "Java",
+        "why_hot": "随着企业级应用对 AI 集成需求的增长，其作为 Java 生态中成熟的 LLM 集成框架，提供了对 MCP 等新特性的支持，并与 Spring 等主流框架无缝集成，因此持续受到关注。"
       },
       {
         "author": "apache",
@@ -678,7 +876,10 @@
         "language": "Java",
         "stars": 41702,
         "forks": 26547,
-        "currentPeriodStars": 3
+        "currentPeriodStars": 3,
+        "summary_zh": "Apache Dubbo 是一个基于 Java 的高性能 RPC 和微服务框架。",
+        "tech_stack": "Java",
+        "why_hot": "作为微服务架构的核心组件，其持续更新和对云原生、服务网格等现代架构的良好支持，使其在企业级分布式系统开发中保持高热度。"
       },
       {
         "author": "spring-projects",
@@ -688,7 +889,10 @@
         "language": "Java",
         "stars": 59666,
         "forks": 38922,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "Spring Framework 是一个开源的Java企业级应用开发框架，提供全面的基础设施支持以简化Java应用的开发。",
+        "tech_stack": "Java",
+        "why_hot": "作为Java生态中最核心和广泛使用的企业级框架，其持续更新、对现代云原生和微服务架构的支持，以及庞大的社区和商业应用基础，使其始终保持极高的关注度和热度。"
       },
       {
         "author": "skylot",
@@ -698,7 +902,10 @@
         "language": "Java",
         "stars": 47405,
         "forks": 5436,
-        "currentPeriodStars": 25
+        "currentPeriodStars": 25,
+        "summary_zh": "这是一个将Android Dex/Apk文件反编译为Java源代码的工具。",
+        "tech_stack": "Java",
+        "why_hot": "作为Android逆向工程领域的核心工具，其持续更新、高成功率及图形化界面使其在安全研究、应用分析和学习场景中保持高热度。"
       },
       {
         "author": "binarywang",
@@ -708,7 +915,10 @@
         "language": "Java",
         "stars": 32577,
         "forks": 9055,
-        "currentPeriodStars": 4
+        "currentPeriodStars": 4,
+        "summary_zh": "这是一个用于微信生态全平台后端开发的Java SDK，支持微信支付、开放平台、小程序、企业微信、公众号等多种服务。",
+        "tech_stack": "Java",
+        "why_hot": "微信生态持续扩展（如视频号等新功能），企业集成需求稳定，SDK维护活跃且功能全面，是Java开发者对接微信服务的首选工具。"
       },
       {
         "author": "dbeaver",
@@ -718,7 +928,10 @@
         "language": "Java",
         "stars": 48819,
         "forks": 4050,
-        "currentPeriodStars": 11
+        "currentPeriodStars": 11,
+        "summary_zh": "DBeaver 是一个免费、开源的通用数据库管理工具和 SQL 客户端，支持连接多种数据库。",
+        "tech_stack": "Java",
+        "why_hot": "作为一款功能强大且免费的跨平台数据库工具，它持续受到开发者和DBA的青睐，其稳定的更新和广泛的数据库支持使其保持高热度。"
       },
       {
         "author": "xuxueli",
@@ -728,7 +941,10 @@
         "language": "Java",
         "stars": 29930,
         "forks": 11451,
-        "currentPeriodStars": 1
+        "currentPeriodStars": 1,
+        "summary_zh": "一个轻量级分布式任务调度平台，用于在分布式系统中执行定时任务和调度作业。",
+        "tech_stack": "Java, Spring Boot, MySQL, Docker",
+        "why_hot": "作为企业级任务调度的事实标准之一，因其设计简洁、文档完善、社区活跃，且近期发布了重要版本更新，持续受到广泛关注和使用。"
       },
       {
         "author": "apache",
@@ -738,7 +954,10 @@
         "language": "Java",
         "stars": 15489,
         "forks": 9200,
-        "currentPeriodStars": 1
+        "currentPeriodStars": 1,
+        "summary_zh": "Apache Hadoop 是一个用于分布式存储和处理大规模数据集的可靠、可扩展的开源框架。",
+        "tech_stack": "Java",
+        "why_hot": "作为大数据生态系统的基石，其稳定性和成熟度使其在企业和数据密集型应用中持续保持重要地位，本周期星数增长平缓，热度更多源于其作为基础组件的长期价值而非短期爆发。"
       },
       {
         "author": "apache",
@@ -747,8 +966,11 @@
         "description": "Apache Doris is an easy-to-use, high performance and unified analytics database.  ",
         "language": "Java",
         "stars": 15044,
-        "forks": 3714,
-        "currentPeriodStars": 9
+        "forks": 3713,
+        "currentPeriodStars": 9,
+        "summary_zh": "Apache Doris 是一个易于使用、高性能且统一的分析型数据库，用于实时数据分析。",
+        "tech_stack": "Java",
+        "why_hot": "因其在实时数据分析场景下的高性能、易用性以及作为开源项目由Apache基金会支持，满足了企业对实时数据处理的迫切需求，社区活跃且持续更新。"
       },
       {
         "author": "dataease",
@@ -758,7 +980,10 @@
         "language": "Java",
         "stars": 23457,
         "forks": 4029,
-        "currentPeriodStars": 11
+        "currentPeriodStars": 11,
+        "summary_zh": "DataEase 是一个开源的数据可视化与商业智能（BI）工具，旨在让用户能够轻松地连接数据源、创建图表和仪表盘，实现类似 Tableau 的数据分析功能。",
+        "tech_stack": "Java",
+        "why_hot": "作为一款对标 Tableau 的开源替代品，它提供了强大的数据可视化能力和友好的用户体验，满足了中小企业和个人对低成本、易用 BI 工具的需求，近期因其持续的功能更新和活跃的社区而保持热度。"
       }
     ],
     "go": [
@@ -770,7 +995,10 @@
         "language": "Go",
         "stars": 13135,
         "forks": 1515,
-        "currentPeriodStars": 21
+        "currentPeriodStars": 21,
+        "summary_zh": "WeKnora是一个基于RAG范式的LLM驱动框架，用于实现深度文档理解、语义检索和上下文感知问答。",
+        "tech_stack": "Go",
+        "why_hot": "作为腾讯开源的项目，它结合了当前热门的RAG技术和大型语言模型，为高效处理复杂文档提供了企业级解决方案，因此受到广泛关注。"
       },
       {
         "author": "open-telemetry",
@@ -780,17 +1008,23 @@
         "language": "Go",
         "stars": 4453,
         "forks": 3375,
-        "currentPeriodStars": 8
+        "currentPeriodStars": 8,
+        "summary_zh": "这是OpenTelemetry Collector的官方贡献者仓库，包含了社区贡献的众多接收器、处理器、导出器和扩展组件。",
+        "tech_stack": "Go",
+        "why_hot": "随着云原生和可观测性成为技术焦点，作为统一收集、处理和导出遥测数据（追踪、指标、日志）的关键基础设施，其社区生态持续活跃，贡献组件不断丰富，因此保持高关注度。"
       },
       {
         "author": "Wei-Shaw",
         "name": "sub2api",
         "url": "https://github.com/Wei-Shaw/sub2api",
-        "description": "Sub2API -CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。  ",
+        "description": "S ub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。  ",
         "language": "Go",
-        "stars": 2159,
+        "stars": 2160,
         "forks": 432,
-        "currentPeriodStars": 93
+        "currentPeriodStars": 93,
+        "summary_zh": "这是一个用Go语言开发的开源中转服务，可将多个AI服务商（如Claude、OpenAI、Gemini等）的订阅统一接入和管理，支持多人拼车共享以分摊成本。",
+        "tech_stack": "Go",
+        "why_hot": "近期因AI服务订阅成本较高，该项目提供了低成本共享方案，且支持多平台原生工具无缝使用，满足了用户高效分摊费用和统一管理AI服务接入的需求。"
       },
       {
         "author": "beclab",
@@ -800,7 +1034,10 @@
         "language": "Go",
         "stars": 4133,
         "forks": 218,
-        "currentPeriodStars": 6
+        "currentPeriodStars": 6,
+        "summary_zh": "Olares 是一个开源的个人云平台，旨在帮助用户重新掌控自己的数据，实现数据的自主管理和隐私保护。",
+        "tech_stack": "Go",
+        "why_hot": "随着数据隐私和自主权意识的增强，用户对去中心化、自托管云存储解决方案的需求上升，该项目提供了一个可替代大型商业云服务的开源选择。"
       },
       {
         "author": "grafana",
@@ -810,7 +1047,10 @@
         "language": "Go",
         "stars": 2416,
         "forks": 275,
-        "currentPeriodStars": 16
+        "currentPeriodStars": 16,
+        "summary_zh": "这是一个为Grafana设计的MCP（模型上下文协议）服务器，允许AI助手通过标准化协议与Grafana进行交互和查询数据。",
+        "tech_stack": "Go",
+        "why_hot": "随着AI助手和LLM集成需求的增长，MCP作为新兴的标准化协议受到关注，该项目由Grafana官方推出，实现了AI与监控/可视化平台的无缝连接，因此吸引了开发者关注。"
       },
       {
         "author": "tmc",
@@ -820,7 +1060,10 @@
         "language": "Go",
         "stars": 8719,
         "forks": 1041,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "LangChain for Go 是一个 Go 语言库，旨在让开发者能够以最简单的方式在 Go 中编写基于大语言模型的应用程序。",
+        "tech_stack": "Go",
+        "why_hot": "随着大语言模型应用开发的普及，Go 作为高性能后端语言，其生态中对类似 LangChain 的框架需求增长，该项目为 Go 开发者提供了构建 AI 应用的便捷工具，因此持续受到关注。"
       },
       {
         "author": "ltaoo",
@@ -830,7 +1073,10 @@
         "language": "Go",
         "stars": 4706,
         "forks": 667,
-        "currentPeriodStars": 15
+        "currentPeriodStars": 15,
+        "summary_zh": "这是一个用于下载微信视频号内容的工具",
+        "tech_stack": "Go",
+        "why_hot": "由于微信视频号内容生态的流行和官方下载功能的限制，用户对便捷下载工具的需求增加，使得此类开源工具受到关注。"
       },
       {
         "author": "gofiber",
@@ -840,7 +1086,10 @@
         "language": "Go",
         "stars": 39293,
         "forks": 1958,
-        "currentPeriodStars": 11
+        "currentPeriodStars": 11,
+        "summary_zh": "Fiber 是一个受 Express.js 启发、用 Go 语言编写的高性能 Web 框架。",
+        "tech_stack": "Go 语言",
+        "why_hot": "凭借 Go 的高并发性能和类似 Express 的友好 API，它吸引了大量需要快速构建高效后端服务的开发者，社区活跃且文档完善。"
       },
       {
         "author": "xpzouying",
@@ -848,9 +1097,12 @@
         "url": "https://github.com/xpzouying/xiaohongshu-mcp",
         "description": "MCP for xiaohongshu.com  ",
         "language": "Go",
-        "stars": 9341,
+        "stars": 9342,
         "forks": 1458,
-        "currentPeriodStars": 117
+        "currentPeriodStars": 117,
+        "summary_zh": "这是一个为小红书（xiaohongshu.com）开发的MCP（模型上下文协议）服务器，允许AI助手通过标准化协议与小红书平台进行交互。",
+        "tech_stack": "Go",
+        "why_hot": "MCP是AI领域新兴的标准化协议，能极大增强AI助手连接外部工具和数据的能力；该项目针对国民级应用小红书，实用性强，且项目质量高，吸引了大量开发者关注。"
       },
       {
         "author": "ArvinLovegood",
@@ -858,9 +1110,12 @@
         "url": "https://github.com/ArvinLovegood/go-stock",
         "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。  ",
         "language": "Go",
-        "stars": 4607,
+        "stars": 4608,
         "forks": 766,
-        "currentPeriodStars": 30
+        "currentPeriodStars": 30,
+        "summary_zh": "这是一个用Go语言开发的、AI赋能的本地化股票分析工具，支持多市场行情获取、AI资讯与财务分析、情绪分析和智能选股等功能。",
+        "tech_stack": "Go",
+        "why_hot": "项目将AI大模型（如DeepSeek、Ollama等）与股票分析结合，实现本地化数据处理和智能选股，契合当前AI应用落地和量化投资的热点趋势，且近期新增30星，关注度持续上升。"
       },
       {
         "author": "0xJacky",
@@ -870,7 +1125,10 @@
         "language": "Go",
         "stars": 10744,
         "forks": 781,
-        "currentPeriodStars": 14
+        "currentPeriodStars": 14,
+        "summary_zh": "这是一个为Nginx提供现代化Web管理界面的开源项目。",
+        "tech_stack": "Go语言",
+        "why_hot": "随着容器化和DevOps的普及，对Nginx这类核心服务的可视化、便捷化管理需求日益增长，该项目提供了比传统配置文件编辑更直观高效的操作方式，因此受到运维和开发人员的关注。"
       },
       {
         "author": "kubernetes",
@@ -880,7 +1138,10 @@
         "language": "Go",
         "stars": 19452,
         "forks": 8527,
-        "currentPeriodStars": 2
+        "currentPeriodStars": 2,
+        "summary_zh": "这是一个用于Kubernetes的Ingress控制器，基于NGINX实现流量路由和负载均衡。",
+        "tech_stack": "Go",
+        "why_hot": "作为Kubernetes生态中管理外部访问的核心组件，随着云原生和微服务架构的普及而持续受到关注。"
       },
       {
         "author": "bytedance",
@@ -890,7 +1151,10 @@
         "language": "Go",
         "stars": 9234,
         "forks": 434,
-        "currentPeriodStars": 5
+        "currentPeriodStars": 5,
+        "summary_zh": "这是一个用Go语言编写的高性能JSON序列化与反序列化库。",
+        "tech_stack": "Go",
+        "why_hot": "因其由字节跳动开源，并在性能基准测试中显著超越标准库和其他流行库，满足了微服务和高并发场景下对极致JSON处理速度的需求，从而受到广泛关注。"
       },
       {
         "author": "opencost",
@@ -900,7 +1164,10 @@
         "language": "Go",
         "stars": 6400,
         "forks": 752,
-        "currentPeriodStars": 8
+        "currentPeriodStars": 8,
+        "summary_zh": "这是一个用于监控Kubernetes工作负载和云成本的开源工具。",
+        "tech_stack": "Go",
+        "why_hot": "随着云原生和Kubernetes的普及，企业成本优化需求激增，该项目提供了专门且可视化的成本监控方案，因此受到持续关注。"
       },
       {
         "author": "rapidaai",
@@ -910,7 +1177,10 @@
         "language": "Go",
         "stars": 652,
         "forks": 205,
-        "currentPeriodStars": 13
+        "currentPeriodStars": 13,
+        "summary_zh": "Rapida 是一个开源的端到端语音 AI 编排平台，用于构建支持音频流、语音识别与合成、语音活动检测、多通道集成等功能的实时对话语音助手。",
+        "tech_stack": "Go",
+        "why_hot": "项目提供了完整的语音 AI 代理开发与部署解决方案，整合了实时音频处理、状态管理和可观测性等企业级功能，降低了构建复杂语音交互系统的门槛，近期在开源 AI 应用开发社区中获得关注。"
       },
       {
         "author": "projectdiscovery",
@@ -918,9 +1188,12 @@
         "url": "https://github.com/projectdiscovery/httpx",
         "description": "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.  ",
         "language": "Go",
-        "stars": 9614,
+        "stars": 9615,
         "forks": 1034,
-        "currentPeriodStars": 8
+        "currentPeriodStars": 8,
+        "summary_zh": "httpx 是一个基于 Go 语言开发的快速、多用途 HTTP 工具包，主要用于对大量目标进行多种 HTTP 探测和漏洞扫描。",
+        "tech_stack": "Go, retryablehttp 库",
+        "why_hot": "作为 ProjectDiscovery 生态系统中的核心工具之一，因其在渗透测试和漏洞挖掘中高效、稳定的表现，持续受到安全社区的关注和使用，近期更新或相关安全事件讨论可能带动了其热度。"
       },
       {
         "author": "dapr",
@@ -930,7 +1203,10 @@
         "language": "Go",
         "stars": 25531,
         "forks": 2045,
-        "currentPeriodStars": 6
+        "currentPeriodStars": 6,
+        "summary_zh": "Dapr 是一个用于在云和边缘环境中构建分布式应用程序的可移植运行时，它结合了事件驱动架构和工作流编排。",
+        "tech_stack": "Go",
+        "why_hot": "作为微软开源的云原生项目，它通过提供通用构建块（如服务调用、状态管理、发布订阅等）简化了微服务开发，符合当前云原生和分布式架构的流行趋势，社区活跃且被广泛采用。"
       },
       {
         "author": "samber",
@@ -940,7 +1216,10 @@
         "language": "Go",
         "stars": 21012,
         "forks": 937,
-        "currentPeriodStars": 12
+        "currentPeriodStars": 12,
+        "summary_zh": "这是一个基于 Go 1.18+ 泛型实现的 Lodash 风格工具库，提供 map、filter、contains、find 等常用集合操作函数。",
+        "tech_stack": "Go (Go 1.18+ 泛型)",
+        "why_hot": "Go 1.18 正式引入泛型后，此类库解决了 Go 长期以来缺乏内置高阶集合函数的痛点，极大地提升了开发效率和代码可读性，因此受到社区广泛欢迎。"
       },
       {
         "author": "ollama",
@@ -948,9 +1227,12 @@
         "url": "https://github.com/ollama/ollama",
         "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.  ",
         "language": "Go",
-        "stars": 163525,
+        "stars": 163526,
         "forks": 14685,
-        "currentPeriodStars": 121
+        "currentPeriodStars": 121,
+        "summary_zh": "Ollama 是一个开源项目，用于在本地快速部署和运行多种大型语言模型（如Kimi、GLM、Qwen等）。",
+        "tech_stack": "Go",
+        "why_hot": "因其支持众多热门且性能强大的开源模型，提供了简单易用的本地化部署方案，满足了用户对隐私、成本和定制化的需求，近期新增模型支持（如DeepSeek）进一步提升了其热度。"
       },
       {
         "author": "temporalio",
@@ -958,9 +1240,12 @@
         "url": "https://github.com/temporalio/temporal",
         "description": "Temporal service  ",
         "language": "Go",
-        "stars": 18536,
+        "stars": 18537,
         "forks": 1372,
-        "currentPeriodStars": 26
+        "currentPeriodStars": 26,
+        "summary_zh": "Temporal是一个用于构建分布式、可扩展且可靠应用的开源工作流编排平台。",
+        "tech_stack": "Go",
+        "why_hot": "随着微服务和事件驱动架构的普及，对复杂业务流程的可靠编排需求激增，Temporal提供了强大的故障恢复和状态管理能力，成为构建健壮分布式系统的关键基础设施，因此持续受到关注。"
       }
     ],
     "rust": [
@@ -970,9 +1255,12 @@
         "url": "https://github.com/clockworklabs/SpacetimeDB",
         "description": "Development at the speed of light  ",
         "language": "Rust",
-        "stars": 20953,
+        "stars": 20963,
         "forks": 753,
-        "currentPeriodStars": 441
+        "currentPeriodStars": 441,
+        "summary_zh": "SpacetimeDB 是一个用于游戏和实时应用的分布式数据库，将数据库和服务器合并为单一服务，支持在边缘节点部署和运行WebAssembly模块。",
+        "tech_stack": "Rust",
+        "why_hot": "本周期新增 441 stars，可能因其创新的‘数据库即服务器’架构、对游戏和实时应用场景的优化，以及利用WebAssembly实现高性能边缘计算而受到关注。"
       },
       {
         "author": "ruvnet",
@@ -980,9 +1268,12 @@
         "url": "https://github.com/ruvnet/ruvector",
         "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.  ",
         "language": "Rust",
-        "stars": 1641,
+        "stars": 1642,
         "forks": 179,
-        "currentPeriodStars": 436
+        "currentPeriodStars": 436,
+        "summary_zh": "RuVector 是一个用 Rust 构建的高性能、实时、自学习的向量图神经网络和数据库。",
+        "tech_stack": "Rust",
+        "why_hot": "近期因 Rust 在系统编程和 AI 基础设施中的热度上升，以及项目本身结合了高性能向量数据库与图神经网络（GNN）等前沿技术，吸引了大量关注，本周新增 436 个 star，表明其在向量搜索和 AI 应用领域的潜力受到认可。"
       },
       {
         "author": "katanemo",
@@ -992,7 +1283,10 @@
         "language": "Rust",
         "stars": 5742,
         "forks": 339,
-        "currentPeriodStars": 284
+        "currentPeriodStars": 284,
+        "summary_zh": "Plano 是一个面向智能体应用的基础设施层，作为AI原生代理和数据平面，它接管了底层的通信、路由等繁琐工作，让开发者能专注于智能体的核心业务逻辑。",
+        "tech_stack": "Rust",
+        "why_hot": "随着AI Agent应用的兴起，开发者急需能简化分布式部署、提升可靠性的基础设施，Plano以其高性能（Rust实现）和专注于解决Agent应用“管道”问题的定位，恰好满足了这一市场需求，因此受到关注。"
       },
       {
         "author": "dani-garcia",
@@ -1000,9 +1294,12 @@
         "url": "https://github.com/dani-garcia/vaultwarden",
         "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs  ",
         "language": "Rust",
-        "stars": 55941,
+        "stars": 55944,
         "forks": 2581,
-        "currentPeriodStars": 178
+        "currentPeriodStars": 178,
+        "summary_zh": "这是一个用Rust编写的、与Bitwarden密码管理器兼容的非官方服务器实现，原名bitwarden_rs。",
+        "tech_stack": "Rust",
+        "why_hot": "因其轻量高效、资源占用远低于官方版本，且支持自托管，满足了用户对隐私和数据控制的需求，近期持续受到关注。"
       },
       {
         "author": "block",
@@ -1010,9 +1307,12 @@
         "url": "https://github.com/block/goose",
         "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM  ",
         "language": "Rust",
-        "stars": 31304,
+        "stars": 31305,
         "forks": 2851,
-        "currentPeriodStars": 91
+        "currentPeriodStars": 91,
+        "summary_zh": "Goose是一个开源且可扩展的AI智能体框架，它超越了普通的代码建议功能，能够安装依赖、执行命令、编辑文件以及运行测试，旨在利用大语言模型实现更复杂的软件开发自动化任务。",
+        "tech_stack": "Rust",
+        "why_hot": "因为它提出了一个超越传统代码补全的、功能更全面的AI智能体框架概念，契合了当前AI代理和自动化开发工具的热潮，其开源和可扩展的特性吸引了开发者关注。"
       },
       {
         "author": "rustdesk",
@@ -1022,7 +1322,10 @@
         "language": "Rust",
         "stars": 108198,
         "forks": 16105,
-        "currentPeriodStars": 70
+        "currentPeriodStars": 70,
+        "summary_zh": "一个开源的自托管远程桌面应用，可作为TeamViewer的替代品。",
+        "tech_stack": "Rust",
+        "why_hot": "作为TeamViewer等商业软件的免费、隐私友好的替代方案，满足了用户对自主可控远程访问工具的需求，且其Rust语言实现带来了高性能和安全性。"
       },
       {
         "author": "OlaProeis",
@@ -1032,7 +1335,10 @@
         "language": "Rust",
         "stars": 1154,
         "forks": 46,
-        "currentPeriodStars": 27
+        "currentPeriodStars": 27,
+        "summary_zh": "一个用Rust和egui构建的轻量级文本编辑器，专注于Markdown、JSON、YAML和TOML文件的快速编辑。",
+        "tech_stack": "Rust, egui",
+        "why_hot": "近期因Rust生态和轻量级GUI应用受关注，其跨平台、高性能特性吸引了开发者，本周新增27星表明持续增长。"
       },
       {
         "author": "rust-lang",
@@ -1042,17 +1348,23 @@
         "language": "Rust",
         "stars": 16091,
         "forks": 1963,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "这是一个为集成开发环境（IDE）提供强大代码分析功能的Rust编译器前端工具。",
+        "tech_stack": "Rust",
+        "why_hot": "随着Rust语言在系统编程和关键基础设施中的采用率持续增长，开发者对高效、智能的IDE工具需求强烈，rust-analyzer作为官方推荐的Language Server，以其卓越的补全、跳转和重构功能，成为提升Rust开发体验的核心工具，因此备受关注。"
       },
       {
         "author": "visioncortex",
         "name": "vtracer",
         "url": "https://github.com/visioncortex/vtracer",
-        "description": "Raste r to Vector Graphics Converter  ",
+        "description": "Raster to Vector Graphics Converter  ",
         "language": "Rust",
         "stars": 5518,
         "forks": 374,
-        "currentPeriodStars": 28
+        "currentPeriodStars": 28,
+        "summary_zh": "这是一个将栅格图像（如PNG、JPEG）转换为矢量图形（SVG）的高效转换工具。",
+        "tech_stack": "Rust",
+        "why_hot": "因其在图像矢量化处理上的高性能和优秀效果，满足了设计、数字艺术和工程制图等领域对高质量矢量图转换的需求，近期在相关社区和社交媒体上受到关注。"
       },
       {
         "author": "lance-format",
@@ -1062,7 +1374,10 @@
         "language": "Rust",
         "stars": 6100,
         "forks": 564,
-        "currentPeriodStars": 12
+        "currentPeriodStars": 12,
+        "summary_zh": "Lance是一个面向多模态AI的开放式湖仓格式，能以两行代码从Parquet转换，提供100倍更快的随机访问、向量索引和数据版本管理。",
+        "tech_stack": "Rust",
+        "why_hot": "因其高效的多模态数据存储与检索能力，兼容Pandas、DuckDB等主流数据工具，并支持向量索引等AI场景关键特性，满足了快速增长的多模态AI数据处理需求。"
       },
       {
         "author": "openai",
@@ -1070,9 +1385,12 @@
         "url": "https://github.com/openai/codex",
         "description": "Lightweight coding agent that runs in your terminal  ",
         "language": "Rust",
-        "stars": 62116,
-        "forks": 8244,
-        "currentPeriodStars": 193
+        "stars": 62117,
+        "forks": 8245,
+        "currentPeriodStars": 193,
+        "summary_zh": "一个在终端中运行的轻量级代码助手，能够根据自然语言描述生成或修改代码。",
+        "tech_stack": "Rust",
+        "why_hot": "作为OpenAI开发的早期代码生成工具，其核心能力代表了AI编程助手的先驱方向，近期可能因相关技术讨论或对比而再次受到关注。"
       },
       {
         "author": "juspay",
@@ -1082,7 +1400,10 @@
         "language": "Rust",
         "stars": 40748,
         "forks": 4563,
-        "currentPeriodStars": 82
+        "currentPeriodStars": 82,
+        "summary_zh": "Hyperswitch 是一个用 Rust 编写的开源支付交换平台，旨在使支付处理更快、更可靠且成本更低。",
+        "tech_stack": "Rust",
+        "why_hot": "作为高性能、安全的支付基础设施开源项目，其采用现代 Rust 语言构建，满足了市场对可靠、可扩展支付解决方案的需求，近期因支付系统稳定性和开源生态关注度提升而受到开发者社区广泛关注。"
       },
       {
         "author": "sinelaw",
@@ -1092,7 +1413,10 @@
         "language": "Rust",
         "stars": 6030,
         "forks": 213,
-        "currentPeriodStars": 18
+        "currentPeriodStars": 18,
+        "summary_zh": "Fresh 是一个基于终端的集成开发环境（IDE）和文本编辑器，主打轻量、强大和快速。",
+        "tech_stack": "Rust",
+        "why_hot": "近期热度可能源于终端开发工具的效率追求和 Rust 生态的流行，其轻量、快速的特点吸引了追求高效工作流的开发者。"
       },
       {
         "author": "NVIDIA",
@@ -1102,7 +1426,10 @@
         "language": "Rust",
         "stars": 69,
         "forks": 45,
-        "currentPeriodStars": 4
+        "currentPeriodStars": 4,
+        "summary_zh": "这是一个用于管理NVIDIA裸金属服务器硬件生命周期和多租户网络的开源管理核心。",
+        "tech_stack": "Rust",
+        "why_hot": "随着AI基础设施和私有云中对高性能裸金属服务器管理的需求增长，该项目作为NVIDIA官方方案，其现代化、安全的Rust实现吸引了关注。"
       },
       {
         "author": "lbjlaq",
@@ -1112,17 +1439,23 @@
         "language": "Rust",
         "stars": 24487,
         "forks": 2737,
-        "currentPeriodStars": 179
+        "currentPeriodStars": 179,
+        "summary_zh": "这是一个为Antigravity工具设计的专业账号管理器，可实现一键无缝切换账号。",
+        "tech_stack": "Rust, Tauri v2, React",
+        "why_hot": "项目功能针对特定工具用户痛点（多账号切换），技术栈现代（Tauri 2），且可能因相关工具或社区推广而获得高关注度，本周新增179星，总星数达24487，表明其持续受欢迎。"
       },
       {
         "author": "idootop",
         "name": "open-xiaoai",
         "url": "https://github.com/idootop/open-xiaoai",
-        "description": "🔊 让小爱音箱「听见你的声音」，解锁无限可能。   ",
+        "description": "🔊 让小爱音箱「听见你的声音」，解锁无限可能。  ",
         "language": "Rust",
         "stars": 2113,
         "forks": 233,
-        "currentPeriodStars": 10
+        "currentPeriodStars": 10,
+        "summary_zh": "这是一个用Rust语言开发的开源项目，通过逆向工程让小爱智能音箱能够接收并处理用户自定义的音频指令，从而突破官方功能限制。",
+        "tech_stack": "Rust（核心开发语言），涉及音频处理、网络通信、硬件协议逆向等技术",
+        "why_hot": "近期因智能家居DIY和硬件破解社区关注度上升，项目提供了对封闭生态设备的自由控制方案，且Rust语言的高效安全特性吸引了开发者。"
       },
       {
         "author": "pola-rs",
@@ -1132,7 +1465,10 @@
         "language": "Rust",
         "stars": 37557,
         "forks": 2647,
-        "currentPeriodStars": 18
+        "currentPeriodStars": 18,
+        "summary_zh": "Polars 是一个用 Rust 编写、性能极高的 DataFrame 查询引擎，用于高效处理大规模数据。",
+        "tech_stack": "Rust",
+        "why_hot": "因其卓越的性能（通常优于 Pandas 等传统工具）、对多线程和惰性计算的原生支持，以及在现代数据科学和数据处理场景中日益增长的需求而持续受到关注。"
       },
       {
         "author": "Polymarket",
@@ -1142,7 +1478,10 @@
         "language": "Rust",
         "stars": 528,
         "forks": 146,
-        "currentPeriodStars": 3
+        "currentPeriodStars": 3,
+        "summary_zh": "这是一个用Rust编写的Polymarket订单簿客户端，用于与中心化限价订单簿交互。",
+        "tech_stack": "Rust",
+        "why_hot": "因Polymarket作为热门预测市场平台，其高性能Rust客户端受到DeFi和交易领域开发者关注，且Rust在系统编程中日益流行。"
       },
       {
         "author": "ai-dynamo",
@@ -1152,7 +1491,10 @@
         "language": "Rust",
         "stars": 6147,
         "forks": 879,
-        "currentPeriodStars": 7
+        "currentPeriodStars": 7,
+        "summary_zh": "一个数据中心级别的分布式推理服务框架，旨在高效管理和扩展AI模型的在线推理服务。",
+        "tech_stack": "Rust",
+        "why_hot": "随着大模型推理需求激增，其面向数据中心规模的高性能、低延迟设计，以及采用Rust实现的高效与可靠性，吸引了寻求生产级部署方案的开发者关注。"
       }
     ]
   },
@@ -1164,9 +1506,12 @@
         "url": "https://github.com/huggingface/skills",
         "description": "",
         "language": "Python",
-        "stars": 7019,
+        "stars": 7026,
         "forks": 409,
-        "currentPeriodStars": 5568
+        "currentPeriodStars": 5568,
+        "summary_zh": "这是一个由HuggingFace开源的Python项目，旨在帮助用户学习和实践AI/ML相关的实用技能，例如API调用、模型微调等。",
+        "tech_stack": "Python",
+        "why_hot": "近期因AI/ML领域持续火热，该项目提供了结构化的实践教程，且由知名机构HuggingFace维护，吸引了大量开发者关注和学习。"
       },
       {
         "author": "x1xhlol",
@@ -1174,9 +1519,12 @@
         "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
         "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models  ",
         "language": "",
-        "stars": 125229,
-        "forks": 32132,
-        "currentPeriodStars": 9938
+        "stars": 125243,
+        "forks": 32133,
+        "currentPeriodStars": 9938,
+        "summary_zh": "该项目收集并整理了多种AI编程工具（如Cursor、Devin AI、Replit等）的系统提示词、内部工具和AI模型信息。",
+        "tech_stack": "主要涉及多种AI模型和工具的配置与提示词，具体技术栈取决于各工具本身（如OpenAI API、Claude等）。",
+        "why_hot": "近期因AI编程助手（如Devin AI）的突破性进展引发广泛关注，开发者急需了解不同工具的底层提示词和模型配置以提升开发效率。"
       },
       {
         "author": "google-research",
@@ -1184,9 +1532,12 @@
         "url": "https://github.com/google-research/timesfm",
         "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.  ",
         "language": "Python",
-        "stars": 9845,
+        "stars": 9846,
         "forks": 808,
-        "currentPeriodStars": 1485
+        "currentPeriodStars": 1485,
+        "summary_zh": "TimesFM 是谷歌研究团队开发的一个预训练时间序列基础模型，专门用于时间序列预测任务。",
+        "tech_stack": "Python",
+        "why_hot": "作为谷歌推出的时间序列基础模型，它代表了将大语言模型的预训练范式成功迁移到时间序列领域的重要进展，吸引了学术界和工业界对可泛化、少样本时间序列预测能力的广泛关注，因此近期star数增长迅速。"
       },
       {
         "author": "muratcankoylan",
@@ -1194,9 +1545,12 @@
         "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
         "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.  ",
         "language": "Python",
-        "stars": 11823,
+        "stars": 11832,
         "forks": 915,
-        "currentPeriodStars": 3035
+        "currentPeriodStars": 3035,
+        "summary_zh": "这是一个为构建、优化和调试智能体系统提供上下文工程、多智能体架构及生产系统相关技能的综合性工具库。",
+        "tech_stack": "Python",
+        "why_hot": "随着AI Agent应用开发的兴起，该项目提供了管理智能体上下文这一核心难题的现成解决方案和最佳实践，满足了市场对高效构建生产级Agent系统的迫切需求，因此近期关注度激增。"
       },
       {
         "author": "blackboardsh",
@@ -1204,9 +1558,12 @@
         "url": "https://github.com/blackboardsh/electrobun",
         "description": "Build ultra fast, tiny, and cross-platform desktop apps with Typescript.  ",
         "language": "C++",
-        "stars": 7206,
+        "stars": 7211,
         "forks": 154,
-        "currentPeriodStars": 1803
+        "currentPeriodStars": 1803,
+        "summary_zh": "一个使用TypeScript构建超快速、轻量级、跨平台桌面应用的工具。",
+        "tech_stack": "C++， TypeScript",
+        "why_hot": "因其承诺提供比Electron等传统方案更快速、更轻量的桌面应用开发体验，吸引了大量关注，近期Stars增长迅速。"
       },
       {
         "author": "clockworklabs",
@@ -1214,9 +1571,12 @@
         "url": "https://github.com/clockworklabs/SpacetimeDB",
         "description": "Development at the speed of light  ",
         "language": "Rust",
-        "stars": 20952,
+        "stars": 20963,
         "forks": 753,
-        "currentPeriodStars": 1436
+        "currentPeriodStars": 1436,
+        "summary_zh": "SpacetimeDB 是一个将数据库与实时事件驱动计算引擎结合的多区域分布式数据库，旨在实现低延迟的全局数据同步和实时应用开发。",
+        "tech_stack": "Rust",
+        "why_hot": "近期热度高主要因为其创新的‘数据库+计算引擎’一体化架构，契合了当前对实时、低延迟全球分布式应用的需求，同时 Rust 语言在系统软件中的高性能和安全优势也吸引了开发者关注。"
       },
       {
         "author": "ruvnet",
@@ -1224,9 +1584,12 @@
         "url": "https://github.com/ruvnet/ruvector",
         "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.  ",
         "language": "Rust",
-        "stars": 1641,
+        "stars": 1642,
         "forks": 179,
-        "currentPeriodStars": 1006
+        "currentPeriodStars": 1006,
+        "summary_zh": "RuVector 是一个用 Rust 构建的高性能、实时、自学习的向量图神经网络和数据库。",
+        "tech_stack": "Rust",
+        "why_hot": "项目周期内新增超过1000个star，可能因其结合了高性能图神经网络与向量数据库的热门方向，且由Rust实现，满足了市场对高效、实时AI基础设施的需求。"
       },
       {
         "author": "RichardAtCT",
@@ -1234,9 +1597,12 @@
         "url": "https://github.com/RichardAtCT/claude-code-telegram",
         "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.  ",
         "language": "Python",
-        "stars": 1699,
+        "stars": 1701,
         "forks": 203,
-        "currentPeriodStars": 944
+        "currentPeriodStars": 944,
+        "summary_zh": "这是一个通过Telegram机器人远程访问Claude Code AI编程助手的项目，支持会话持久化和全功能AI辅助开发。",
+        "tech_stack": "Python",
+        "why_hot": "近期Claude Code（Claude 3.5 Sonnet代码功能）发布引发关注，该项目提供了便捷的移动端编程交互方式，适合开发者随时随地通过Telegram进行AI辅助编程。"
       },
       {
         "author": "obra",
@@ -1244,9 +1610,12 @@
         "url": "https://github.com/obra/superpowers",
         "description": "An agentic skills framework &amp; software development methodology that works.  ",
         "language": "Shell",
-        "stars": 63522,
-        "forks": 4854,
-        "currentPeriodStars": 7985
+        "stars": 63543,
+        "forks": 4855,
+        "currentPeriodStars": 7985,
+        "summary_zh": "这是一个智能体技能框架与软件开发方法论项目，旨在提供一套可行的智能体协作与软件开发实践体系。",
+        "tech_stack": "Shell",
+        "why_hot": "近期因人工智能代理（AI Agent）领域热度持续攀升，该项目提供了一个具体、可落地的框架和方法论，吸引了大量关注和实践者。"
       },
       {
         "author": "cloudflare",
@@ -1254,9 +1623,12 @@
         "url": "https://github.com/cloudflare/agents",
         "description": "Build and deploy AI Agents on Cloudflare  ",
         "language": "TypeScript",
-        "stars": 4295,
+        "stars": 4296,
         "forks": 435,
-        "currentPeriodStars": 1054
+        "currentPeriodStars": 1054,
+        "summary_zh": "这是一个用于在Cloudflare平台上构建和部署AI智能体的开源框架。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因Cloudflare AI Workers的发布和AI应用部署需求的增长而受到关注，本周期Star数增长显著（+1054）。"
       },
       {
         "author": "Stremio",
@@ -1264,9 +1636,12 @@
         "url": "https://github.com/Stremio/stremio-web",
         "description": "Stremio - Freedom to Stream  ",
         "language": "JavaScript",
-        "stars": 10186,
+        "stars": 10187,
         "forks": 1094,
-        "currentPeriodStars": 1178
+        "currentPeriodStars": 1178,
+        "summary_zh": "这是一个基于Web的流媒体聚合平台，允许用户在一个界面中搜索和观看来自多个来源的电影、剧集、直播等内容。",
+        "tech_stack": "JavaScript (React, Node.js)",
+        "why_hot": "近期热度飙升主要因为其作为开源、免费的流媒体聚合解决方案，提供了便捷的内容发现和播放体验，吸引了大量寻求替代传统订阅服务的用户。"
       }
     ],
     "python": [
@@ -1276,9 +1651,12 @@
         "url": "https://github.com/huggingface/skills",
         "description": "",
         "language": "Python",
-        "stars": 7019,
+        "stars": 7026,
         "forks": 409,
-        "currentPeriodStars": 5568
+        "currentPeriodStars": 5568,
+        "summary_zh": "这是一个由HuggingFace开发的Python项目，旨在帮助开发者通过实践学习AI/ML相关技能，例如构建聊天机器人、处理数据等。",
+        "tech_stack": "Python",
+        "why_hot": "最近因AI和机器学习领域持续火热，且项目提供了易于上手的实践教程，吸引了大量开发者关注和学习，导致Stars数短期内激增。"
       },
       {
         "author": "google-research",
@@ -1286,19 +1664,25 @@
         "url": "https://github.com/google-research/timesfm",
         "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.  ",
         "language": "Python",
-        "stars": 9845,
+        "stars": 9846,
         "forks": 808,
-        "currentPeriodStars": 1485
+        "currentPeriodStars": 1485,
+        "summary_zh": "TimesFM 是谷歌研究团队开发的一个预训练时间序列基础模型，专门用于时间序列预测任务。",
+        "tech_stack": "Python",
+        "why_hot": "作为谷歌推出的时间序列基础模型，它代表了AI在时序预测领域的前沿进展，其开源发布吸引了大量关注；近期star数大幅增长，表明社区对大规模预训练时序模型及其应用潜力的兴趣高涨。"
       },
       {
         "author": "muratcankoylan",
         "name": "Agent-Skills-for-Context-Engineering",
         "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
         "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.  ",
-        "language": "ython",
-        "stars": 11823,
+        "language": "Python",
+        "stars": 11832,
         "forks": 915,
-        "currentPeriodStars": 3035
+        "currentPeriodStars": 3035,
+        "summary_zh": "这是一个为构建、优化和调试智能体系统提供上下文管理相关技能的综合工具库。",
+        "tech_stack": "Python",
+        "why_hot": "随着AI Agent和多智能体架构成为行业热点，该项目提供了可直接用于生产环境的上下文工程技能集合，满足了市场对高效管理Agent上下文的需求，因此近期关注度激增。"
       },
       {
         "author": "RichardAtCT",
@@ -1306,9 +1690,12 @@
         "url": "https://github.com/RichardAtCT/claude-code-telegram",
         "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.  ",
         "language": "Python",
-        "stars": 1699,
+        "stars": 1701,
         "forks": 203,
-        "currentPeriodStars": 944
+        "currentPeriodStars": 944,
+        "summary_zh": "这是一个通过Telegram机器人远程访问Claude Code的AI编程助手项目，让开发者能随时随地通过聊天界面与AI协作处理代码项目。",
+        "tech_stack": "Python",
+        "why_hot": "近期Claude Code（Claude 3.5 Sonnet的代码编辑器功能）发布后关注度激增，该项目提供了便捷的移动端/远程访问方案，且支持会话持久化，满足了开发者对灵活AI编程工具的需求。"
       },
       {
         "author": "mihail911",
@@ -1316,9 +1703,12 @@
         "url": "https://github.com/mihail911/modern-software-dev-assignments",
         "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2025)  ",
         "language": "Python",
-        "stars": 2471,
+        "stars": 2472,
         "forks": 558,
-        "currentPeriodStars": 598
+        "currentPeriodStars": 598,
+        "summary_zh": "这是斯坦福大学CS146S课程《现代软件开发》的作业项目，包含2025年秋季学期的编程作业。",
+        "tech_stack": "Python",
+        "why_hot": "该项目因关联斯坦福大学热门课程，提供了现代软件开发的实践案例，近期可能因课程开放或相关教学资源传播而受到关注，导致star数快速增长。"
       },
       {
         "author": "Netflix",
@@ -1326,9 +1716,12 @@
         "url": "https://github.com/Netflix/metaflow",
         "description": "Build, Manage and Deploy AI/ML Systems  ",
         "language": "Python",
-        "stars": 9861,
+        "stars": 9862,
         "forks": 1079,
-        "currentPeriodStars": 106
+        "currentPeriodStars": 106,
+        "summary_zh": "Metaflow是一个由Netflix开发的开源框架，用于构建、管理和部署端到端的AI/ML系统，简化了从数据到模型部署的整个工作流。",
+        "tech_stack": "Python",
+        "why_hot": "随着企业对生产级AI/ML系统管理需求的增长，其提供的一体化、可扩展且与云平台（如AWS）深度集成的解决方案受到广泛关注，近期活跃的开发和社区贡献推动了其流行度。"
       },
       {
         "author": "oppia",
@@ -1338,7 +1731,10 @@
         "language": "Python",
         "stars": 6563,
         "forks": 5405,
-        "currentPeriodStars": 0
+        "currentPeriodStars": 50,
+        "summary_zh": "Oppia 是一个免费在线学习平台，旨在通过互动课程让优质教育普及化。",
+        "tech_stack": "Python",
+        "why_hot": "本周期新增50星，作为开源教育科技项目，其推动教育公平的使命和持续的社区贡献吸引了关注。"
       },
       {
         "author": "p-e-w",
@@ -1346,9 +1742,12 @@
         "url": "https://github.com/p-e-w/heretic",
         "description": "Fully automatic censorship removal for language models  ",
         "language": "Python",
-        "stars": 9762,
+        "stars": 9763,
         "forks": 966,
-        "currentPeriodStars": 1379
+        "currentPeriodStars": 1379,
+        "summary_zh": "这是一个用于自动移除语言模型中审查/限制内容（即“去审查化”）的Python工具。",
+        "tech_stack": "Python",
+        "why_hot": "近期因社区对AI模型内容限制和“对齐”技术的讨论增多，以及开源模型定制需求增长，此类能干预模型输出过滤机制的工具受到广泛关注。"
       },
       {
         "author": "OpenBB-finance",
@@ -1358,7 +1757,10 @@
         "language": "Python",
         "stars": 62217,
         "forks": 6065,
-        "currentPeriodStars": 1748
+        "currentPeriodStars": 1748,
+        "summary_zh": "OpenBB是一个为金融分析师、量化交易员和AI智能体提供一站式金融数据和分析的开源平台。",
+        "tech_stack": "Python",
+        "why_hot": "近期热度高，一方面因为金融数据与AI结合是当前热点，另一方面其开源、模块化设计及强大的数据集成能力吸引了大量开发者和机构用户，本周期新增大量Star反映了这一趋势。"
       },
       {
         "author": "PostHog",
@@ -1368,7 +1770,10 @@
         "language": "Python",
         "stars": 31799,
         "forks": 2330,
-        "currentPeriodStars": 505
+        "currentPeriodStars": 505,
+        "summary_zh": "PostHog 是一个面向开发者的全栈产品分析平台，集成了产品分析、会话回放、功能开关、A/B测试、数据仓库等多种工具，帮助团队一站式管理产品数据和优化用户体验。",
+        "tech_stack": "Python",
+        "why_hot": "近期热度较高（本周新增 505 stars），主要因为其作为开源、可自托管的替代品，提供了类似 Mixpanel/Amplitude 的完整产品分析套件，同时集成了 AI 助手等新功能，符合当前开发者对数据驱动和一体化平台的需求趋势。"
       },
       {
         "author": "anthropics",
@@ -1376,9 +1781,12 @@
         "url": "https://github.com/anthropics/claude-plugins-official",
         "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.  ",
         "language": "Python",
-        "stars": 8444,
+        "stars": 8446,
         "forks": 827,
-        "currentPeriodStars": 770
+        "currentPeriodStars": 0,
+        "summary_zh": "这是Anthropic官方维护的高质量Claude代码插件目录库。",
+        "tech_stack": "Python",
+        "why_hot": "作为官方插件库，它汇集了经过审核的高质量插件，是Claude AI助手扩展功能的核心资源，因此受到开发者社区的广泛关注。"
       },
       {
         "author": "HunxByts",
@@ -1388,7 +1796,10 @@
         "language": "Python",
         "stars": 7703,
         "forks": 1011,
-        "currentPeriodStars": 0
+        "currentPeriodStars": 964,
+        "summary_zh": "GhostTrack 是一个用于追踪地理位置或手机号码的实用工具。",
+        "tech_stack": "Python",
+        "why_hot": "近期因在社交媒体上被宣传为强大的位置追踪工具而受到关注，引发了用户对其功能和隐私影响的广泛讨论，导致星标数激增。"
       },
       {
         "author": "freemocap",
@@ -1398,7 +1809,10 @@
         "language": "Python",
         "stars": 5782,
         "forks": 456,
-        "currentPeriodStars": 711
+        "currentPeriodStars": 711,
+        "summary_zh": "这是一个面向所有人的免费开源动作捕捉系统，允许用户使用普通摄像头录制并分析人体三维运动。",
+        "tech_stack": "Python",
+        "why_hot": "因为它降低了动作捕捉技术的门槛，让普通用户和研究者无需昂贵设备即可进行运动分析，且近期更新活跃，社区关注度显著提升。"
       },
       {
         "author": "GVCLab",
@@ -1406,19 +1820,25 @@
         "url": "https://github.com/GVCLab/PersonaLive",
         "description": "[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming  ",
         "language": "Python",
-        "stars": 2310,
+        "stars": 2311,
         "forks": 309,
-        "currentPeriodStars": 652
+        "currentPeriodStars": 652,
+        "summary_zh": "这是一个用于直播场景的、能够生成富有表现力的肖像图像动画的AI项目，可将静态人像照片根据音频或文本驱动生成生动的动态视频。",
+        "tech_stack": "Python，深度学习（计算机视觉，生成模型），涉及CVPR 2026前沿研究",
+        "why_hot": "近期火爆（单周新增652星）主要因为：1）作为CVPR 2026提前展示的前沿成果，技术新颖性高；2）解决了直播/视频生成中表情自然、口型同步的关键痛点，应用前景明确；3）项目开源且效果演示惊艳，吸引了业界和开发者广泛关注。"
       },
       {
         "author": "roboflow",
         "name": "trackers",
         "url": "https://github.com/roboflow/trackers",
-        "description": "Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released unde r the permissive Apache 2.0 license. You combine them with any detection model you already use.  ",
+        "description": "Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You com bine them with any detec tion model you already use.  ",
         "language": "Python",
         "stars": 2906,
         "forks": 276,
-        "currentPeriodStars": 386
+        "currentPeriodStars": 386,
+        "summary_zh": "这是一个提供多种主流多目标跟踪算法模块化、干净实现的开源库，允许用户轻松将其与现有检测模型结合使用。",
+        "tech_stack": "Python",
+        "why_hot": "项目提供了灵活、易集成的跟踪算法实现，并采用宽松的Apache 2.0许可，满足了计算机视觉领域对高效、可定制化多目标跟踪工具的需求，近期在GitHub上获得了显著关注。"
       },
       {
         "author": "anthropics",
@@ -1426,9 +1846,12 @@
         "url": "https://github.com/anthropics/claude-code-security-review",
         "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.  ",
         "language": "Python",
-        "stars": 3374,
+        "stars": 3376,
         "forks": 266,
-        "currentPeriodStars": 366
+        "currentPeriodStars": 366,
+        "summary_zh": "这是一个利用Claude AI分析代码变更以检测安全漏洞的GitHub Action工具。",
+        "tech_stack": "Python",
+        "why_hot": "随着AI在开发运维中的深入应用，该项目提供了自动化、智能化的代码安全审查方案，能有效提升开发流程的安全性，近期star数显著增长反映了市场对此类AI辅助安全工具的高需求。"
       },
       {
         "author": "GodsScion",
@@ -1438,7 +1861,10 @@
         "language": "Python",
         "stars": 1831,
         "forks": 494,
-        "currentPeriodStars": 207
+        "currentPeriodStars": 207,
+        "summary_zh": "这是一个用Python编写的自动化工具，用于自动申请LinkedIn上的职位，以简化求职流程。",
+        "tech_stack": "Python",
+        "why_hot": "近期因求职市场竞争加剧，自动化工具能显著提升海投效率，节省求职者时间，因此关注度快速上升，本周新增207个star。"
       },
       {
         "author": "databricks-solutions",
@@ -1446,9 +1872,12 @@
         "url": "https://github.com/databricks-solutions/ai-dev-kit",
         "description": "Databricks Toolkit for Coding Agents provided by Field Engineering  ",
         "language": "Python",
-        "stars": 705,
+        "stars": 706,
         "forks": 123,
-        "currentPeriodStars": 276
+        "currentPeriodStars": 276,
+        "summary_zh": "这是一个由Databricks现场工程团队提供的工具包，旨在帮助开发者构建和集成基于AI的编码助手（Coding Agents）。",
+        "tech_stack": "Python",
+        "why_hot": "近期热度高（单周新增276星），主要因为AI编程助手（如DevOps、代码生成代理）是当前热门领域，且该项目来自知名数据与AI公司Databricks，为开发者提供了构建此类应用的官方工具和范例。"
       }
     ],
     "javascript": [
@@ -1458,9 +1887,12 @@
         "url": "https://github.com/Stremio/stremio-web",
         "description": "Stremio - Freedom to Stream  ",
         "language": "JavaScript",
-        "stars": 10186,
+        "stars": 10187,
         "forks": 1094,
-        "currentPeriodStars": 1178
+        "currentPeriodStars": 1178,
+        "summary_zh": "Stremio-web 是 Stremio 流媒体聚合平台的网页版客户端，允许用户在一个界面中管理和观看来自多个来源（如 Netflix、YouTube、公共目录等）的视频内容。",
+        "tech_stack": "JavaScript (React)",
+        "why_hot": "近期热度上升（本周新增1178星）可能与其作为开源、免费的流媒体聚合解决方案，契合了用户整合观看资源的需求，以及项目持续更新或社区推广有关。"
       },
       {
         "author": "SynkraAI",
@@ -1470,7 +1902,10 @@
         "language": "JavaScript",
         "stars": 1877,
         "forks": 646,
-        "currentPeriodStars": 470
+        "currentPeriodStars": 470,
+        "summary_zh": "这是一个基于AI编排的全栈开发核心框架，旨在通过AI智能体协同工作来自动化软件开发流程。",
+        "tech_stack": "JavaScript/Node.js",
+        "why_hot": "近期因发布v4.0重大版本更新，引入了更强大的AI智能体协作和自动化能力，契合当前AI赋能开发的热潮，吸引了大量关注。"
       },
       {
         "author": "harvard-edge",
@@ -1480,7 +1915,10 @@
         "language": "JavaScript",
         "stars": 21046,
         "forks": 2459,
-        "currentPeriodStars": 901
+        "currentPeriodStars": 901,
+        "summary_zh": "这是一个哈佛大学推出的开源机器学习系统入门教程项目，以在线书籍形式介绍机器学习系统的基础知识。",
+        "tech_stack": "JavaScript (主要用于构建交互式在线书籍)",
+        "why_hot": "作为哈佛大学CS249r课程的配套教材，内容权威且紧跟前沿；以免费、开源的交互式在线书形式呈现，学习体验友好；近期新增大量内容更新或功能改进，吸引了广泛关注。"
       },
       {
         "author": "gsd-build",
@@ -1488,19 +1926,25 @@
         "url": "https://github.com/gsd-build/get-shit-done",
         "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.  ",
         "language": "JavaScript",
-        "stars": 21076,
+        "stars": 21078,
         "forks": 1840,
-        "currentPeriodStars": 4775
+        "currentPeriodStars": 4775,
+        "summary_zh": "这是一个为Claude Code和OpenCode设计的轻量级元提示、上下文工程和规范驱动开发系统，帮助开发者高效完成编程任务。",
+        "tech_stack": "JavaScript",
+        "why_hot": "近期因AI编程助手（如Claude Code）的普及，该项目提供了系统化的提示工程和开发规范框架，能显著提升AI辅助编程的效率与质量，吸引了大量开发者关注。"
       },
       {
         "author": "jgraph",
         "name": "drawio",
         "url": "https://github.com/jgraph/drawio",
-        "description": "draw.io is a JavaScript, client-side editor for general diagramming.   ",
+        "description": "draw.io is a JavaScript, client-side editor for general diagramming.  ",
         "language": "JavaScript",
         "stars": 3755,
         "forks": 668,
-        "currentPeriodStars": 160
+        "currentPeriodStars": 160,
+        "summary_zh": "draw.io 是一个基于 JavaScript 的客户端图表绘制编辑器。",
+        "tech_stack": "JavaScript",
+        "why_hot": "作为一款功能强大且免费的开源绘图工具，其持续更新、优秀的用户体验以及作为本地部署的图表软件替代品，使其在本周期获得了160个新增star，保持了较高的热度。"
       },
       {
         "author": "jasonjmcghee",
@@ -1510,7 +1954,10 @@
         "language": "JavaScript",
         "stars": 524,
         "forks": 41,
-        "currentPeriodStars": 47
+        "currentPeriodStars": 47,
+        "summary_zh": "这是一个早期WebMCP（Web Machine Learning Compute Protocol）提案的实现原型，旨在为Web端机器学习计算提供通信协议支持。",
+        "tech_stack": "JavaScript",
+        "why_hot": "近期因AI和Web端机器学习应用热度持续上升，且该项目作为相关重要协议（WebMCP）的早期探索，吸引了开发者对Web机器学习基础设施演进的关注。"
       },
       {
         "author": "badlogic",
@@ -1520,7 +1967,10 @@
         "language": "JavaScript",
         "stars": 644,
         "forks": 66,
-        "currentPeriodStars": 113
+        "currentPeriodStars": 113,
+        "summary_zh": "这是一个为Pi编程助手设计的技能库，兼容Claude Code和Codex CLI，用于扩展AI代码代理的功能。",
+        "tech_stack": "JavaScript",
+        "why_hot": "近期新增113个star，可能因AI编程助手生态发展及开发者对可扩展工具集的需求增长而受到关注。"
       },
       {
         "author": "github",
@@ -1530,7 +1980,10 @@
         "language": "JavaScript",
         "stars": 22742,
         "forks": 2617,
-        "currentPeriodStars": 985
+        "currentPeriodStars": 985,
+        "summary_zh": "这是一个收集社区贡献的GitHub Copilot使用指南、提示词和配置的项目，旨在帮助用户更高效地利用这款AI编程助手。",
+        "tech_stack": "JavaScript",
+        "why_hot": "随着AI编程工具的普及和GitHub Copilot的广泛使用，开发者社区积极分享最佳实践以提升开发效率，导致该项目关注度持续上升，本周期新增近千星。"
       },
       {
         "author": "Balackburn",
@@ -1540,7 +1993,10 @@
         "language": "JavaScript",
         "stars": 1300,
         "forks": 74,
-        "currentPeriodStars": 47
+        "currentPeriodStars": 47,
+        "summary_zh": "这是一个为Reddit第三方客户端Apollo提供AltStore安装源和官方网站的项目，集成了ImprovedCustomApi以增强功能。",
+        "tech_stack": "JavaScript",
+        "why_hot": "由于Reddit官方API政策变化导致许多第三方客户端无法使用，该项目提供了替代的安装和更新渠道，并整合了改进的自定义API，因此近期关注度上升。"
       },
       {
         "author": "Mintplex-Labs",
@@ -1548,9 +2004,12 @@
         "url": "https://github.com/Mintplex-Labs/anything-llm",
         "description": "The all-in-one Desktop &amp; Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.  ",
         "language": "JavaScript",
-        "stars": 55094,
-        "forks": 5943,
-        "currentPeriodStars": 358
+        "stars": 55095,
+        "forks": 5944,
+        "currentPeriodStars": 358,
+        "summary_zh": "一个集成了检索增强生成（RAG）、AI智能体、无代码构建器等功能的一体化桌面和Docker AI应用程序。",
+        "tech_stack": "JavaScript",
+        "why_hot": "本周期新增358个star，热度较高，可能因其作为功能全面的本地化AI应用，集成了RAG、AI智能体构建、MCP兼容等热门企业级特性，满足了用户对私有化、可定制AI工作流的需求。"
       },
       {
         "author": "louislam",
@@ -1558,19 +2017,25 @@
         "url": "https://github.com/louislam/uptime-kuma",
         "description": "A fancy self-hosted monitoring tool  ",
         "language": "JavaScript",
-        "stars": 83328,
+        "stars": 83329,
         "forks": 7444,
-        "currentPeriodStars": 353
+        "currentPeriodStars": 353,
+        "summary_zh": "这是一个美观的自托管监控工具，用于监控网站和服务的在线状态。",
+        "tech_stack": "JavaScript (Node.js), Vue.js, Socket.IO, Bootstrap",
+        "why_hot": "作为轻量、开源且功能丰富的Prometheus/Uptime Robot替代品，满足了用户对数据隐私和自托管监控方案日益增长的需求，近期更新活跃且社区讨论热度高。"
       },
       {
         "author": "gaotianliuyun",
         "name": "gao",
         "url": "https://github.com/gaotianliuyun/gao",
-        "description": "FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。  ",
+        "description": "FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说 明，一旦使用将被 视为你已了解。  ",
         "language": "JavaScript",
         "stars": 7203,
         "forks": 2586,
-        "currentPeriodStars": 58
+        "currentPeriodStars": 58,
+        "summary_zh": "这是一个提供FongMi影视和TVBox配置文件的仓库，用于自定义影视聚合应用的源和接口。",
+        "tech_stack": "JavaScript",
+        "why_hot": "由于TVBox及其衍生应用在寻找稳定影视源方面的需求持续存在，该项目提供了易于获取和更新的配置文件，吸引了大量用户Fork自用，导致其热度上升。"
       },
       {
         "author": "SillyTavern",
@@ -1578,9 +2043,12 @@
         "url": "https://github.com/SillyTavern/SillyTavern",
         "description": "LLM Frontend for Power Users.  ",
         "language": "JavaScript",
-        "stars": 23586,
+        "stars": 23587,
         "forks": 4797,
-        "currentPeriodStars": 311
+        "currentPeriodStars": 311,
+        "summary_zh": "SillyTavern 是一个为高级用户设计的、功能强大的大型语言模型（LLM）聊天前端界面。",
+        "tech_stack": "JavaScript",
+        "why_hot": "作为可高度自定义的AI聊天前端，它支持连接多种后端模型（如OpenAI、Claude、本地模型），并提供丰富的角色扮演、扩展插件和界面定制功能，满足了用户对私密、可控且功能丰富的AI交互体验的强烈需求，因此持续受到社区关注和更新。"
       },
       {
         "author": "eslint",
@@ -1590,7 +2058,10 @@
         "language": "JavaScript",
         "stars": 27128,
         "forks": 4931,
-        "currentPeriodStars": 133
+        "currentPeriodStars": 133,
+        "summary_zh": "ESLint 是一个用于查找和修复 JavaScript 代码中问题的静态代码分析工具。",
+        "tech_stack": "JavaScript",
+        "why_hot": "作为现代 JavaScript 开发中保障代码质量和一致性的标准工具，其持续更新、活跃的社区以及新版本发布（如支持新 ECMAScript 特性）使其保持高关注度。"
       },
       {
         "author": "nolimits4web",
@@ -1600,7 +2071,10 @@
         "language": "JavaScript",
         "stars": 41800,
         "forks": 9708,
-        "currentPeriodStars": 26
+        "currentPeriodStars": 26,
+        "summary_zh": "Swiper 是一个现代化的移动端触摸滑块组件，支持硬件加速过渡效果。",
+        "tech_stack": "JavaScript",
+        "why_hot": "作为移动端轮播图的首选解决方案，其持续的更新维护、优秀的性能和丰富的功能使其在需要响应式触摸交互的Web项目中保持高热度，本周期新增26个star，表明其仍被广泛采用和关注。"
       }
     ],
     "typescript": [
@@ -1610,9 +2084,12 @@
         "url": "https://github.com/cloudflare/agents",
         "description": "Build and deploy AI Agents on Cloudflare  ",
         "language": "TypeScript",
-        "stars": 4295,
+        "stars": 4296,
         "forks": 435,
-        "currentPeriodStars": 1054
+        "currentPeriodStars": 1054,
+        "summary_zh": "这是一个用于在Cloudflare平台上构建和部署AI智能体的开源项目。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期热度飙升，主要因为Cloudflare在AI边缘计算领域动作频繁，且该项目降低了在边缘部署AI应用的门槛，顺应了当前AI应用轻量化、去中心化的趋势。"
       },
       {
         "author": "bytedance",
@@ -1620,9 +2097,12 @@
         "url": "https://github.com/bytedance/deer-flow",
         "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.  ",
         "language": "TypeScript",
-        "stars": 21213,
-        "forks": 2614,
-        "currentPeriodStars": 982
+        "stars": 21216,
+        "forks": 2615,
+        "currentPeriodStars": 982,
+        "summary_zh": "Deer-Flow 是一个开源的 SuperAgent 框架，它通过沙箱、记忆、工具、技能和子代理等机制，能够自主完成从研究、编码到创作的多层次复杂任务。",
+        "tech_stack": "TypeScript",
+        "why_hot": "作为字节跳动开源的高阶AI智能体框架，它展示了处理耗时任务的强大能力，代表了当前AI Agent领域的前沿方向，吸引了大量开发者和研究者的关注。"
       },
       {
         "author": "badlogic",
@@ -1630,9 +2110,12 @@
         "url": "https://github.com/badlogic/pi-mono",
         "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods  ",
         "language": "TypeScript",
-        "stars": 17229,
+        "stars": 17239,
         "forks": 1796,
-        "currentPeriodStars": 3287
+        "currentPeriodStars": 3287,
+        "summary_zh": "这是一个AI智能体工具包，提供编码助手CLI、统一LLM API接口、终端与Web界面库、Slack机器人及vLLM部署等功能。",
+        "tech_stack": "TypeScript",
+        "why_hot": "项目集成了当前热门的AI智能体开发与部署工具链，尤其提供了便捷的vLLM模型服务管理，满足了市场对一体化AI开发平台的需求，近期关注度显著上升。"
       },
       {
         "author": "stan-smith",
@@ -1642,7 +2125,10 @@
         "language": "TypeScript",
         "stars": 18808,
         "forks": 1219,
-        "currentPeriodStars": 1349
+        "currentPeriodStars": 1349,
+        "summary_zh": "FossFLOW 是一个用于创建美观等距视角基础设施图的工具。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因等距视角图表在技术文档和演示中的流行，以及其开源、易用和视觉吸引力强的特点而受到关注，star数增长迅速。"
       },
       {
         "author": "seerr-team",
@@ -1652,7 +2138,10 @@
         "language": "TypeScript",
         "stars": 9868,
         "forks": 646,
-        "currentPeriodStars": 385
+        "currentPeriodStars": 385,
+        "summary_zh": "这是一个为Jellyfin、Plex和Emby设计的开源媒体请求与发现管理工具。",
+        "tech_stack": "TypeScript",
+        "why_hot": "作为自建媒体库生态中的重要工具，其开源属性和对主流媒体服务器的良好支持，满足了用户对自动化、便捷内容请求和管理的需求，近期Star数增长显著，反映出家庭媒体服务器社区的活跃度与需求在持续提升。"
       },
       {
         "author": "evershopcommerce",
@@ -1662,7 +2151,10 @@
         "language": "TypeScript",
         "stars": 9663,
         "forks": 2189,
-        "currentPeriodStars": 530
+        "currentPeriodStars": 530,
+        "summary_zh": "这是一个基于TypeScript开发的现代化、开源电子商务平台。",
+        "tech_stack": "TypeScript, Node.js, React, PostgreSQL, GraphQL",
+        "why_hot": "近期热度高主要因为其作为功能齐全的TypeScript全栈电商解决方案，满足了市场对现代化、可扩展且类型安全电商平台的需求，同时开源模式吸引了大量开发者关注。"
       },
       {
         "author": "p2r3",
@@ -1672,7 +2164,10 @@
         "language": "TypeScript",
         "stars": 2197,
         "forks": 207,
-        "currentPeriodStars": 526
+        "currentPeriodStars": 526,
+        "summary_zh": "这是一个真正通用的在线文件转换工具，支持多种格式间的相互转换。",
+        "tech_stack": "TypeScript",
+        "why_hot": "可能因其‘万能转换’的定位解决了用户常见痛点，近期在社区（如Hacker News或产品推荐平台）被广泛分享，导致关注度激增。"
       },
       {
         "author": "southleft",
@@ -1682,7 +2177,10 @@
         "language": "TypeScript",
         "stars": 657,
         "forks": 63,
-        "currentPeriodStars": 168
+        "currentPeriodStars": 168,
+        "summary_zh": "这是一个将Figma设计系统转化为API的工具，允许AI连接Figma以进行设计元素的提取、创建和调试。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因AI代理（如Claude等）通过MCP（Model Context Protocol）集成工具生态的需求激增，该项目作为连接AI与设计工具的关键桥梁，满足了自动化处理设计系统的需求，因此关注度迅速上升。"
       },
       {
         "author": "github",
@@ -1691,8 +2189,11 @@
         "description": "The open-source repo for docs.github.com  ",
         "language": "TypeScript",
         "stars": 19002,
-        "forks": 66151,
-        "currentPeriodStars": 73
+        "forks": 66152,
+        "currentPeriodStars": 73,
+        "summary_zh": "这是GitHub官方文档网站docs.github.com的开源代码仓库，用于托管和协作开发GitHub的产品文档。",
+        "tech_stack": "TypeScript, JavaScript, Node.js, React",
+        "why_hot": "作为GitHub服务的核心文档源，其更新与GitHub平台功能发布紧密相关，任何GitHub新特性的推出或文档的改进都会带动该仓库的关注度。本周期新增73星，表明平台近期有持续的更新或社区活跃的文档贡献。"
       },
       {
         "author": "siteboon",
@@ -1700,9 +2201,12 @@
         "url": "https://github.com/siteboon/claudecodeui",
         "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely  ",
         "language": "TypeScript",
-        "stars": 7224,
+        "stars": 7225,
         "forks": 917,
-        "currentPeriodStars": 882
+        "currentPeriodStars": 882,
+        "summary_zh": "这是一个免费开源的Web界面/图形用户界面，帮助用户在移动设备和网页上远程管理Claude Code、Cursor CLI或Codex的会话与项目。",
+        "tech_stack": "TypeScript",
+        "why_hot": "近期因Claude Code等AI编程助手的普及，该项目提供了一个便捷的远程管理和Web访问方案，满足了移动端和云端协作的需求，导致关注度快速上升。"
       }
     ],
     "java": [
@@ -1714,7 +2218,10 @@
         "language": "Java",
         "stars": 7016,
         "forks": 3135,
-        "currentPeriodStars": 74
+        "currentPeriodStars": 74,
+        "summary_zh": "Traccar 是一个开源的 GPS 车辆追踪系统，用于实时定位和管理车队、资产或个人设备。",
+        "tech_stack": "Java, 支持多种数据库（如 MySQL, PostgreSQL），前端使用 Web 技术（如 JavaScript）。",
+        "why_hot": "随着物流、车队管理和物联网（IoT）需求的增长，开源且可自托管的 GPS 追踪解决方案因其数据隐私可控和成本效益而受到关注，近期更新活跃，社区贡献增加。"
       },
       {
         "author": "yuliskov",
@@ -1724,7 +2231,10 @@
         "language": "Java",
         "stars": 28428,
         "forks": 1531,
-        "currentPeriodStars": 177
+        "currentPeriodStars": 177,
+        "summary_zh": "这是一个为Android TV设计的智能YouTube客户端，允许用户通过自定义规则浏览媒体内容，并提供无广告体验和高级播放控制。",
+        "tech_stack": "Java",
+        "why_hot": "近期因YouTube官方对广告拦截措施的加强，用户寻求替代方案以避免广告干扰，同时项目本身持续更新并支持高级功能，吸引了大量关注。"
       },
       {
         "author": "woheller69",
@@ -1734,7 +2244,10 @@
         "language": "Java",
         "stars": 521,
         "forks": 18,
-        "currentPeriodStars": 128
+        "currentPeriodStars": 128,
+        "summary_zh": "这是一个用于在Android设备上接收和显示德国公共紧急警报（如自然灾害、危险情况）的开源应用。",
+        "tech_stack": "Java, Android",
+        "why_hot": "近期德国引入了新的公共预警系统，该应用作为官方预警应用（NINA、KATWARN）的免费开源替代品，满足了用户对隐私友好、无追踪功能预警工具的需求，因此关注度激增。"
       },
       {
         "author": "iflytek",
@@ -1744,7 +2257,10 @@
         "language": "Java",
         "stars": 9500,
         "forks": 1064,
-        "currentPeriodStars": 298
+        "currentPeriodStars": 298,
+        "summary_zh": "这是一个企业级、商业友好的智能体工作流平台，用于构建下一代超级智能体（SuperAgents）。",
+        "tech_stack": "Java",
+        "why_hot": "项目由知名机构发布，定位为下一代企业级AI智能体平台，契合当前AI Agent和自动化工作流的技术热点，且近期获得了大量关注（单周增长近300星）。"
       },
       {
         "author": "LSPosed",
@@ -1754,7 +2270,10 @@
         "language": "Java",
         "stars": 22902,
         "forks": 3488,
-        "currentPeriodStars": 102
+        "currentPeriodStars": 102,
+        "summary_zh": "这是一个基于Riru的Android框架，用于在不修改APK的情况下实现Xposed模块功能，提供更稳定和隐蔽的Root环境下的钩子能力。",
+        "tech_stack": "Java, C++",
+        "why_hot": "作为Magisk模块，它提供了比传统Xposed更佳的兼容性和隐蔽性，随着Android系统更新和Root社区对稳定、安全模块的需求增长，其活跃度持续上升。"
       },
       {
         "author": "apache",
@@ -1764,7 +2283,10 @@
         "language": "Java",
         "stars": 32065,
         "forks": 14993,
-        "currentPeriodStars": 62
+        "currentPeriodStars": 62,
+        "summary_zh": "Apache Kafka 是一个开源的分布式流处理平台，用于构建高吞吐量、低延迟的实时数据管道和流应用程序。",
+        "tech_stack": "Java, Scala",
+        "why_hot": "作为实时数据处理的行业标准，其持续更新、在流处理和大数据领域的核心地位，以及广泛的企业应用，使其始终保持高关注度。"
       },
       {
         "author": "re-zero001",
@@ -1774,7 +2296,10 @@
         "language": "Java",
         "stars": 2357,
         "forks": 231,
-        "currentPeriodStars": 51
+        "currentPeriodStars": 51,
+        "summary_zh": "这是一个基于LSPosed框架的无用分支项目，主要用于展示或测试目的。",
+        "tech_stack": "Java",
+        "why_hot": "可能因LSPosed框架在Android模块化开发社区持续受关注，或该分支包含某些实验性功能而吸引了开发者兴趣。"
       },
       {
         "author": "ashishps1",
@@ -1782,9 +2307,12 @@
         "url": "https://github.com/ashishps1/awesome-system-design-resources",
         "description": "Learn System Design concepts and prepare for interviews using free resources.  ",
         "language": "Java",
-        "stars": 33847,
+        "stars": 33848,
         "forks": 7505,
-        "currentPeriodStars": 747
+        "currentPeriodStars": 747,
+        "summary_zh": "这是一个收集系统设计学习和面试准备免费资源的精选列表项目。",
+        "tech_stack": "Java",
+        "why_hot": "系统设计是高级技术岗位面试的核心环节，该项目提供了系统化的免费学习路径，帮助开发者高效准备，因此持续受到关注。"
       },
       {
         "author": "JabRef",
@@ -1794,7 +2322,10 @@
         "language": "Java",
         "stars": 4244,
         "forks": 3229,
-        "currentPeriodStars": 14
+        "currentPeriodStars": 14,
+        "summary_zh": "一个用于管理BibTeX和BibLaTeX文献数据库的图形化Java应用程序。",
+        "tech_stack": "Java",
+        "why_hot": "作为学术文献管理领域的成熟开源工具，其持续更新和稳定的社区支持使其在科研工作者中保持热度，本周期的星标增长体现了其持续的活跃度和用户需求。"
       },
       {
         "author": "camunda",
@@ -1804,7 +2335,10 @@
         "language": "Java",
         "stars": 4025,
         "forks": 746,
-        "currentPeriodStars": 9
+        "currentPeriodStars": 9,
+        "summary_zh": "Camunda是一个用于自动化业务流程和工作流的开源流程编排框架。",
+        "tech_stack": "Java",
+        "why_hot": "随着企业数字化转型和微服务架构的普及，对高效、可靠且可视化的业务流程自动化工具需求持续增长，Camunda因其强大的BPMN执行能力、灵活的集成选项和活跃的社区而受到关注。"
       },
       {
         "author": "xCollateral",
@@ -1814,7 +2348,10 @@
         "language": "Java",
         "stars": 2170,
         "forks": 270,
-        "currentPeriodStars": 21
+        "currentPeriodStars": 21,
+        "summary_zh": "这是一个为《我的世界》游戏开发的Vulkan渲染器模组，旨在提升游戏性能和画质。",
+        "tech_stack": "Java, Vulkan API",
+        "why_hot": "近期因《我的世界》持续流行，玩家对高性能渲染和帧率提升的需求增加，且Vulkan渲染相比OpenGL能带来显著的性能优化，吸引了社区关注。"
       },
       {
         "author": "keycloak",
@@ -1824,7 +2361,10 @@
         "language": "Java",
         "stars": 33046,
         "forks": 8076,
-        "currentPeriodStars": 148
+        "currentPeriodStars": 148,
+        "summary_zh": "这是一个开源的统一身份认证与访问管理解决方案，用于为现代应用和服务提供安全的用户管理、单点登录、社交登录等功能。",
+        "tech_stack": "Java",
+        "why_hot": "随着微服务架构和云原生应用的普及，对集中、安全且易于集成的身份认证与授权服务的需求持续增长，Keycloak作为成熟的开源解决方案，其活跃的社区和持续的更新使其保持热度。"
       },
       {
         "author": "spring-projects",
@@ -1834,7 +2374,10 @@
         "language": "Java",
         "stars": 80115,
         "forks": 41869,
-        "currentPeriodStars": 104
+        "currentPeriodStars": 104,
+        "summary_zh": "Spring Boot 是一个用于简化 Spring 应用初始搭建和开发过程的框架，让开发者能快速创建可独立运行的生产级 Spring 应用。",
+        "tech_stack": "Java, Spring Framework",
+        "why_hot": "作为 Java 生态中最主流的应用开发框架之一，其持续更新、庞大的社区和在企业级开发中的广泛采用，使其始终保持高热度。本周 star 数增长显著，可能源于新版本发布或相关教程、讨论的推动。"
       },
       {
         "author": "PBH-BTN",
@@ -1844,7 +2387,10 @@
         "language": "Java",
         "stars": 5767,
         "forks": 142,
-        "currentPeriodStars": 45
+        "currentPeriodStars": 45,
+        "summary_zh": "这是一个用于BT下载的自动反吸血工具，能识别并封禁不受欢迎、吸血和异常的BT客户端，支持多种下载软件和自定义规则。",
+        "tech_stack": "Java",
+        "why_hot": "近期因BT下载生态中吸血客户端问题受到关注，其开源、支持多客户端及云规则更新的特性吸引了用户。"
       },
       {
         "author": "openjdk",
@@ -1854,7 +2400,10 @@
         "language": "Java",
         "stars": 22651,
         "forks": 6266,
-        "currentPeriodStars": 47
+        "currentPeriodStars": 47,
+        "summary_zh": "这是OpenJDK项目的主线开发仓库，用于Java开发工具包（JDK）的核心开发工作。",
+        "tech_stack": "Java, C++, C, 汇编",
+        "why_hot": "作为Java生态的基石，其持续更新（如新版本特性、性能优化和安全补丁）始终受到全球开发者社区的广泛关注，任何动态都会引发讨论和贡献。"
       },
       {
         "author": "risin42",
@@ -1864,7 +2413,10 @@
         "language": "Java",
         "stars": 1336,
         "forks": 76,
-        "currentPeriodStars": 44
+        "currentPeriodStars": 44,
+        "summary_zh": "NagramX是Nagram的一个功能增强变体，是一款基于Java开发的第三方Telegram客户端。",
+        "tech_stack": "Java",
+        "why_hot": "作为第三方Telegram客户端，它可能因提供了官方应用不具备的额外功能、更好的隐私控制或自定义选项而受到关注，本周期新增44个star表明其近期热度有所上升。"
       },
       {
         "author": "conductor-oss",
@@ -1874,7 +2426,10 @@
         "language": "Java",
         "stars": 31483,
         "forks": 817,
-        "currentPeriodStars": 44
+        "currentPeriodStars": 44,
+        "summary_zh": "Conductor 是一个事件驱动的智能体编排平台，为应用程序和AI智能体提供持久化且高弹性的执行引擎。",
+        "tech_stack": "Java",
+        "why_hot": "随着AI智能体应用的爆发式增长，市场对可靠、可扩展的智能体编排与工作流管理平台需求激增，该项目作为成熟的分布式编排解决方案因此受到高度关注。"
       },
       {
         "author": "apache",
@@ -1884,7 +2439,10 @@
         "language": "Java",
         "stars": 8495,
         "forks": 4516,
-        "currentPeriodStars": 12
+        "currentPeriodStars": 12,
+        "summary_zh": "Apache Beam 是一个统一的编程模型，用于批处理和流式数据处理。",
+        "tech_stack": "Java",
+        "why_hot": "作为大数据处理领域的重要框架，其统一模型简化了批流一体应用的开发，近期可能因云原生和数据实时处理需求持续增长而保持热度。"
       }
     ],
     "go": [
@@ -1894,19 +2452,25 @@
         "url": "https://github.com/vxcontrol/pentagi",
         "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks  ",
         "language": "Go",
-        "stars": 8329,
+        "stars": 8330,
         "forks": 944,
-        "currentPeriodStars": 6618
+        "currentPeriodStars": 6618,
+        "summary_zh": "这是一个完全自主的AI代理系统，专门用于执行复杂的渗透测试任务，实现自动化安全评估。",
+        "tech_stack": "Go",
+        "why_hot": "近期热度飙升（单周新增超6600星），主要因为其将前沿的AI自主代理能力与高需求的网络安全（渗透测试）领域结合，展示了AI在自动化安全攻防方面的巨大潜力，吸引了安全研究者和开发者的广泛关注。"
       },
       {
         "author": "keploy",
         "name": "keploy",
         "url": "https://github.com/keploy/keploy",
-        "description": " API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!  ",
+        "description": " API, Integration, E2 E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!  ",
         "language": "Go",
         "stars": 16067,
         "forks": 2135,
-        "currentPeriodStars": 389
+        "currentPeriodStars": 389,
+        "summary_zh": "这是一个为开发者提供的API测试代理工具，能够自动生成API测试用例和模拟数据，支持集成测试和端到端测试。",
+        "tech_stack": "Go",
+        "why_hot": "项目解决了API测试的自动化难题，大幅提升开发效率，近期因其创新的测试生成能力和活跃的社区贡献而受到广泛关注，本周Star增长显著。"
       },
       {
         "author": "dolthub",
@@ -1916,7 +2480,10 @@
         "language": "Go",
         "stars": 20210,
         "forks": 637,
-        "currentPeriodStars": 302
+        "currentPeriodStars": 302,
+        "summary_zh": "Dolt 是一个将 Git 版本控制模型应用于数据的数据库，允许用户像管理代码一样对数据进行分支、合并、克隆和提交操作。",
+        "tech_stack": "Go",
+        "why_hot": "随着数据驱动决策和协作式数据分析需求的增长，Dolt 提供了独特的数据版本控制能力，其‘Git for Data’的定位清晰解决了数据可追溯与协同的痛点，因此持续获得关注。"
       },
       {
         "author": "open-telemetry",
@@ -1926,7 +2493,10 @@
         "language": "Go",
         "stars": 4453,
         "forks": 3375,
-        "currentPeriodStars": 36
+        "currentPeriodStars": 36,
+        "summary_zh": "OpenTelemetry Collector 的官方扩展组件库，提供社区贡献的接收器、处理器、导出器和连接器等插件，用于增强可观测性数据收集与处理能力。",
+        "tech_stack": "Go",
+        "why_hot": "随着云原生和微服务架构普及，可观测性成为刚需；OpenTelemetry 作为 CNCF 毕业项目，其 Collector 是统一收集的关键组件，该扩展库持续集成丰富插件，支持与各类中间件、云服务集成，近期因社区活跃、企业采用增加而关注度上升。"
       },
       {
         "author": "junegunn",
@@ -1936,7 +2506,10 @@
         "language": "Go",
         "stars": 78166,
         "forks": 2697,
-        "currentPeriodStars": 246
+        "currentPeriodStars": 246,
+        "summary_zh": "这是一个命令行模糊查找工具，允许用户快速搜索和过滤文件、历史命令、进程等。",
+        "tech_stack": "Go",
+        "why_hot": "因其高效、直观的交互式模糊搜索体验，被广泛集成于各类开发工具和Shell环境，近期持续受到关注和更新。"
       },
       {
         "author": "cert-manager",
@@ -1946,7 +2519,10 @@
         "language": "Go",
         "stars": 13628,
         "forks": 2320,
-        "currentPeriodStars": 54
+        "currentPeriodStars": 54,
+        "summary_zh": "这是一个用于在Kubernetes集群中自动申请、管理和续期TLS证书的开源工具。",
+        "tech_stack": "Go",
+        "why_hot": "随着云原生和Kubernetes的普及，服务间安全通信（TLS）成为刚需，cert-manager作为该领域的标准解决方案，其稳定性和社区生态持续吸引用户，本周期Star增长稳定。"
       },
       {
         "author": "grafana",
@@ -1956,7 +2532,10 @@
         "language": "Go",
         "stars": 11251,
         "forks": 725,
-        "currentPeriodStars": 47
+        "currentPeriodStars": 47,
+        "summary_zh": "Pyroscope 是一个持续性能剖析平台，可帮助开发者将性能问题定位到具体的代码行。",
+        "tech_stack": "Go",
+        "why_hot": "随着微服务和云原生架构的普及，对应用性能进行细粒度、低开销的实时监控和剖析成为刚需，Pyroscope 作为 Grafana 生态的重要组件，提供了强大的持续剖析能力，因此受到广泛关注。"
       },
       {
         "author": "xpzouying",
@@ -1964,9 +2543,12 @@
         "url": "https://github.com/xpzouying/xiaohongshu-mcp",
         "description": "MCP for xiaohongshu.com  ",
         "language": "Go",
-        "stars": 9341,
+        "stars": 9342,
         "forks": 1458,
-        "currentPeriodStars": 424
+        "currentPeriodStars": 424,
+        "summary_zh": "这是一个为小红书平台开发的MCP（模型上下文协议）服务器，使AI助手能够与小红书进行交互。",
+        "tech_stack": "Go",
+        "why_hot": "MCP是AI应用开发的新兴协议，该项目将大模型能力与热门的小红书平台结合，满足了内容创作和自动化需求，且项目质量高，获得了社区关注。"
       },
       {
         "author": "krillinai",
@@ -1974,9 +2556,12 @@
         "url": "https://github.com/krillinai/KrillinAI",
         "description": "Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms like YouTube，TikTok. AI视频翻译配音工具，100种语言双向翻译，一键部署全流程，可以生抖音，小红书，哔哩哔哩，视频号，TikTok，Youtube等形态的内容成适配  ",
         "language": "Go",
-        "stars": 9487,
+        "stars": 9488,
         "forks": 816,
-        "currentPeriodStars": 101
+        "currentPeriodStars": 101,
+        "summary_zh": "这是一个基于大语言模型的AI视频翻译与配音工具，支持100种语言双向翻译，并能一键生成适配各大视频平台的本地化内容。",
+        "tech_stack": "Go",
+        "why_hot": "项目提供了从翻译、配音到平台适配的全流程自动化解决方案，极大地简化了视频内容跨语言分发的门槛，满足了全球化内容创作的强烈需求，因此近期关注度快速上升。"
       },
       {
         "author": "aldinokemal",
@@ -1984,9 +2569,12 @@
         "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
         "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.  ",
         "language": "Go",
-        "stars": 3590,
+        "stars": 3591,
         "forks": 836,
-        "currentPeriodStars": 77
+        "currentPeriodStars": 77,
+        "summary_zh": "这是一个基于Go语言开发的WhatsApp多设备版REST API服务，支持UI界面、多账户管理、Webhooks、MCP以及Chatwoot集成。",
+        "tech_stack": "Go",
+        "why_hot": "项目提供了无需依赖手机即可连接WhatsApp Web的自动化解决方案，支持多账户和丰富的企业级集成功能（如Webhook、Chatwoot），满足了市场对高效、可扩展的WhatsApp商业集成工具的需求，近期Star增长显著。"
       },
       {
         "author": "aquasecurity",
@@ -1996,7 +2584,10 @@
         "language": "Go",
         "stars": 32274,
         "forks": 2975,
-        "currentPeriodStars": 274
+        "currentPeriodStars": 274,
+        "summary_zh": "Trivy 是一款综合性安全扫描工具，用于检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、敏感信息和软件物料清单。",
+        "tech_stack": "Go",
+        "why_hot": "随着云原生和DevSecOps的普及，对快速、易集成的安全扫描工具需求激增，其全面的扫描能力和活跃的社区更新（本周新增274星）使其持续受到关注。"
       },
       {
         "author": "cli",
@@ -2006,7 +2597,10 @@
         "language": "Go",
         "stars": 42789,
         "forks": 7996,
-        "currentPeriodStars": 175
+        "currentPeriodStars": 175,
+        "summary_zh": "GitHub官方开发的命令行工具，用于在终端中直接访问和操作GitHub平台的功能。",
+        "tech_stack": "Go",
+        "why_hot": "随着开发者对高效工作流的追求，命令行工具因其快速、可脚本化的特性日益流行；官方工具的稳定性和与GitHub生态的深度集成使其备受青睐，本周期Star增长显著。"
       },
       {
         "author": "authelia",
@@ -2014,9 +2608,12 @@
         "url": "https://github.com/authelia/authelia",
         "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™  ",
         "language": "Go",
-        "stars": 26975,
+        "stars": 26976,
         "forks": 1348,
-        "currentPeriodStars": 200
+        "currentPeriodStars": 200,
+        "summary_zh": "Authelia 是一个为 Web 应用提供单点登录和多因素认证保护的门户，现已通过 OpenID 认证。",
+        "tech_stack": "Go",
+        "why_hot": "作为自托管身份验证和授权服务器的热门选择，其安全性、OpenID 认证的合规性以及持续活跃的社区更新（本周新增200星）吸引了寻求替代商业解决方案的用户。"
       },
       {
         "author": "seaweedfs",
@@ -2026,7 +2623,10 @@
         "language": "Go",
         "stars": 30603,
         "forks": 2729,
-        "currentPeriodStars": 200
+        "currentPeriodStars": 200,
+        "summary_zh": "SeaweedFS 是一个高性能的分布式存储系统，专为海量文件、对象和数据湖场景设计。",
+        "tech_stack": "Go",
+        "why_hot": "因其支持云原生（Kubernetes）、多种访问协议（S3 API、POSIX FUSE、WebDAV）和企业级功能（云分层、纠删码），同时具备O(1)磁盘寻址的高性能，满足了现代云存储和数据处理的需求，近期关注度持续上升。"
       },
       {
         "author": "evcc-io",
@@ -2036,7 +2636,10 @@
         "language": "Go",
         "stars": 6207,
         "forks": 1200,
-        "currentPeriodStars": 42
+        "currentPeriodStars": 42,
+        "summary_zh": "这是一个用于太阳能充电的开源家庭能源管理系统，专注于电动汽车和智能家居的能源优化。",
+        "tech_stack": "Go",
+        "why_hot": "随着电动汽车和家庭光伏系统的普及，用户对集成化、智能化的能源管理解决方案需求激增，该项目正好满足了这一市场趋势，帮助用户高效利用太阳能为车辆充电并管理家庭用电。"
       },
       {
         "author": "vitessio",
@@ -2046,27 +2649,36 @@
         "language": "Go",
         "stars": 20828,
         "forks": 2307,
-        "currentPeriodStars": 51
+        "currentPeriodStars": 51,
+        "summary_zh": "Vitess 是一个用于MySQL水平扩展的数据库集群系统。",
+        "tech_stack": "Go",
+        "why_hot": "作为云原生数据库架构的关键组件，其稳定性和在大型分布式系统中的成熟应用持续吸引关注，本周期新增51个Star，表明其在解决数据库扩展性难题方面保持热度。"
       },
       {
         "author": "go-playground",
         "name": "validator",
         "url": "https://github.com/go-playground/validator",
-        "description": "💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving  ",
+        "description": "💯Go Struct and Field validation, inclu ding Cross Field, Cross Struct, Map, Slice and Array diving  ",
         "language": "Go",
         "stars": 19746,
         "forks": 1407,
-        "currentPeriodStars": 34
+        "currentPeriodStars": 34,
+        "summary_zh": "这是一个用于Go语言的结构体和字段验证库，支持跨字段、跨结构体、Map、Slice和Array的深度验证。",
+        "tech_stack": "Go",
+        "why_hot": "由于Go语言在微服务和API开发中的广泛应用，对数据验证的需求持续增长；该库功能全面、性能优秀，且近期有更新维护，因此保持较高的关注度。"
       },
       {
         "author": "FiloSottile",
         "name": "age",
         "url": "https://github.com/FiloSottile/age",
-        "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.  ",
+        "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNI X-style composability.   ",
         "language": "Go",
         "stars": 21448,
         "forks": 613,
-        "currentPeriodStars": 102
+        "currentPeriodStars": 102,
+        "summary_zh": "age 是一个简单、现代且安全的加密工具（及 Go 库），专注于使用小型显式密钥，无复杂配置，并遵循 UNIX 风格的可组合性。",
+        "tech_stack": "Go",
+        "why_hot": "项目因其简洁、安全的设计理念和易用性持续受到关注，本周期新增 102 个 star，反映了社区对轻量级、可集成加密工具的需求增长。"
       },
       {
         "author": "apernet",
@@ -2076,7 +2688,10 @@
         "language": "Go",
         "stars": 18961,
         "forks": 2019,
-        "currentPeriodStars": 165
+        "currentPeriodStars": 165,
+        "summary_zh": "Hysteria 是一个基于改进的 QUIC 协议、专为对抗网络审查和优化网络性能而设计的高性能代理工具。",
+        "tech_stack": "Go",
+        "why_hot": "因其能有效绕过深度包检测等高级网络封锁，并在恶劣网络条件下仍能提供高速、稳定的连接，近期在需要突破网络限制的用户和开发者中受到广泛关注。"
       }
     ],
     "rust": [
@@ -2086,9 +2701,12 @@
         "url": "https://github.com/clockworklabs/SpacetimeDB",
         "description": "Development at the speed of light  ",
         "language": "Rust",
-        "stars": 20953,
+        "stars": 20963,
         "forks": 753,
-        "currentPeriodStars": 1436
+        "currentPeriodStars": 1436,
+        "summary_zh": "SpacetimeDB 是一个用于构建实时、多人在线应用的高性能数据库，它将数据库和游戏服务器功能融合，支持低延迟的全球数据同步。",
+        "tech_stack": "Rust",
+        "why_hot": "近期热度高是因为它瞄准了实时应用和游戏开发领域对低延迟、高并发数据处理的强烈需求，其‘开发如光速’的理念和开源高性能特性吸引了大量开发者关注。"
       },
       {
         "author": "ruvnet",
@@ -2096,9 +2714,12 @@
         "url": "https://github.com/ruvnet/ruvector",
         "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.  ",
         "language": "Rust",
-        "stars": 1641,
+        "stars": 1642,
         "forks": 179,
-        "currentPeriodStars": 1006
+        "currentPeriodStars": 1006,
+        "summary_zh": "RuVector 是一个用 Rust 语言构建的高性能、实时、自学习的向量图神经网络和数据库。",
+        "tech_stack": "Rust",
+        "why_hot": "项目周期内新增超过1000个star，表明其在向量数据库/图神经网络领域受到高度关注，可能因其高性能、实时处理及自学习特性，契合了当前AI基础设施对高效数据存储与检索的需求。"
       },
       {
         "author": "katanemo",
@@ -2108,7 +2729,10 @@
         "language": "Rust",
         "stars": 5742,
         "forks": 339,
-        "currentPeriodStars": 619
+        "currentPeriodStars": 619,
+        "summary_zh": "Plano是一个为AI智能体应用提供交付基础设施的代理和数据平面，旨在简化开发流程，让开发者能专注于智能体的核心逻辑。",
+        "tech_stack": "Rust",
+        "why_hot": "随着AI智能体应用开发的兴起，该项目通过提供高效的底层基础设施来卸载繁琐的管道工作，满足了市场对高性能、可扩展AI代理解决方案的需求，近期在GitHub上获得了显著的关注度增长。"
       },
       {
         "author": "GraphiteEditor",
@@ -2118,7 +2742,10 @@
         "language": "Rust",
         "stars": 24381,
         "forks": 1095,
-        "currentPeriodStars": 141
+        "currentPeriodStars": 141,
+        "summary_zh": "Graphite是一个开源的综合性2D内容创作工具套件，专注于图形设计、数字艺术和交互式实时动态图形，其核心特色是提供了基于节点的程序化编辑功能。",
+        "tech_stack": "Rust",
+        "why_hot": "作为用Rust构建的专业级开源设计工具，它挑战了Adobe等商业软件的地位，其独特的节点化非破坏性工作流程和活跃的开源社区吸引了大量关注，近期Stars增长显著，体现了市场对创新、开源创作工具的强烈需求。"
       },
       {
         "author": "dmtrKovalenko",
@@ -2127,8 +2754,11 @@
         "description": "Finally a Fabioulous &amp; Fast Fuzzy File Finder for neovim  ",
         "language": "Rust",
         "stars": 1530,
-        "forks": 68,
-        "currentPeriodStars": 67
+        "forks": 69,
+        "currentPeriodStars": 67,
+        "summary_zh": "这是一个为Neovim设计的快速且功能强大的模糊文件查找插件。",
+        "tech_stack": "Rust",
+        "why_hot": "因其使用Rust编写，性能远超同类插件，且近期Neovim社区对高性能原生插件需求旺盛，使其关注度快速上升。"
       },
       {
         "author": "storytold",
@@ -2138,7 +2768,10 @@
         "language": "Rust",
         "stars": 944,
         "forks": 77,
-        "currentPeriodStars": 203
+        "currentPeriodStars": 203,
+        "summary_zh": "ArtCraft 是一个面向艺术家、设计师和电影制作人的创意制作引擎。",
+        "tech_stack": "Rust",
+        "why_hot": "本周期新增 203 个 Star，表明其作为高性能创意工具的开发进展或独特定位吸引了社区关注。"
       },
       {
         "author": "surrealdb",
@@ -2148,7 +2781,10 @@
         "language": "Rust",
         "stars": 31356,
         "forks": 1150,
-        "currentPeriodStars": 136
+        "currentPeriodStars": 136,
+        "summary_zh": "SurrealDB是一个为实时Web设计的可扩展、分布式、协作式文档-图数据库。",
+        "tech_stack": "Rust",
+        "why_hot": "它集成了文档和图数据库模型，支持实时协作查询和分布式架构，解决了现代应用对灵活数据模型和实时同步的需求，近期在数据库领域受到高度关注，Star数增长迅速。"
       },
       {
         "author": "rust-lang",
@@ -2158,7 +2794,10 @@
         "language": "Rust",
         "stars": 110736,
         "forks": 14536,
-        "currentPeriodStars": 247
+        "currentPeriodStars": 247,
+        "summary_zh": "Rust 编程语言的核心编译器、标准库及工具链项目，旨在让开发者构建可靠且高效的软件。",
+        "tech_stack": "Rust",
+        "why_hot": "因其内存安全、高性能和并发特性，在系统编程、WebAssembly、基础设施等领域应用日益广泛，社区活跃且生态持续增长，本周获得较多关注。"
       },
       {
         "author": "zed-industries",
@@ -2168,7 +2807,10 @@
         "language": "Rust",
         "stars": 76036,
         "forks": 7099,
-        "currentPeriodStars": 482
+        "currentPeriodStars": 482,
+        "summary_zh": "Zed 是一款由 Atom 和 Tree-sitter 的创造者开发的高性能、支持多人协作的代码编辑器。",
+        "tech_stack": "Rust",
+        "why_hot": "作为新兴的高性能编辑器，由知名团队打造，其开源和多人协作特性吸引了大量开发者关注，近期更新活跃，社区增长迅速。"
       },
       {
         "author": "0xPlaygrounds",
@@ -2178,17 +2820,23 @@
         "language": "Rust",
         "stars": 6153,
         "forks": 668,
-        "currentPeriodStars": 129
+        "currentPeriodStars": 129,
+        "summary_zh": "这是一个用Rust构建模块化、可扩展大型语言模型（LLM）应用的开源框架。",
+        "tech_stack": "Rust",
+        "why_hot": "随着Rust在系统编程和性能关键场景中的普及，以及LLM应用开发需求的增长，该项目提供了一个高性能、内存安全且易于组合的解决方案，满足了开发者对高效可靠LLM基础设施的需求，近期活跃的开发和社区关注推动了其热度上升。"
       },
       {
         "author": "claration",
         "name": "Impactor",
         "url": "https://github.com/claration/Impactor",
-        "description": " WIP feature rich iOS/tvOS sideloading application written in Rust.  ",
+        "description": "WIP feature rich iOS/tvOS side loading application writ ten in Rust.  ",
         "language": "Rust",
         "stars": 1358,
         "forks": 64,
-        "currentPeriodStars": 152
+        "currentPeriodStars": 152,
+        "summary_zh": "这是一个用Rust编写的功能丰富的iOS/tvOS侧载应用，允许用户在非越狱设备上安装第三方应用。",
+        "tech_stack": "Rust",
+        "why_hot": "近期因苹果官方对第三方应用商店政策有所调整，以及AltStore等同类工具受到关注，使得此类开发工具需求增加；同时项目使用Rust语言开发也吸引了技术社区的目光，本周Star数增长显著（+152）。"
       },
       {
         "author": "spacedriveapp",
@@ -2198,7 +2846,10 @@
         "language": "Rust",
         "stars": 37160,
         "forks": 1218,
-        "currentPeriodStars": 145
+        "currentPeriodStars": 145,
+        "summary_zh": "Spacedrive 是一个开源的跨平台文件管理器，其核心是一个用 Rust 编写的虚拟分布式文件系统。",
+        "tech_stack": "Rust",
+        "why_hot": "项目因其创新的技术理念（用虚拟文件系统统一管理所有设备与云存储）、Rust 语言的高性能与安全性，以及近期活跃的开发和社区关注度（本周新增大量 star）而受到持续关注。"
       }
     ]
   }
