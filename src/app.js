@@ -73,7 +73,24 @@
     return items;
   }
 
+  const LANG_LABELS = { all: "All", python: "Python", javascript: "JavaScript", typescript: "TypeScript", java: "Java", go: "Go", rust: "Rust", ruby: "Ruby", "c++": "C++", c: "C", "c#": "C#", php: "PHP" };
+
+  function renderLangTabs() {
+    const container = document.getElementById("langTabs");
+    if (!currentData) return;
+    const keys = Object.keys(currentData.daily || {});
+    const html = keys
+      .map((lang) => {
+        const label = LANG_LABELS[lang] || lang.charAt(0).toUpperCase() + lang.slice(1);
+        const active = lang === currentLang ? " active" : "";
+        return `<button class="lang-tab${active}" data-lang="${escapeHtml(lang)}">${escapeHtml(label)}</button>`;
+      })
+      .join("");
+    container.innerHTML = html;
+  }
+
   function refresh() {
+    if (currentData) renderLangTabs();
     const items = getItems();
     renderCards(items);
   }
@@ -143,8 +160,8 @@
     btn.addEventListener("click", () => switchTab(btn.dataset.tab));
   });
 
-  document.querySelectorAll(".lang-tab").forEach((btn) => {
-    btn.addEventListener("click", () => switchLang(btn.dataset.lang));
+  document.getElementById("langTabs").addEventListener("click", (e) => {
+    if (e.target.classList.contains("lang-tab")) switchLang(e.target.dataset.lang);
   });
 
   dateSelect.addEventListener("change", () => loadArchive(dateSelect.value));
